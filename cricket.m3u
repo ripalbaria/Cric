@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 logo="https://i.ibb.co/7xz4z0k2/Cricket.png" group-title="Info", Last Update: 20:30 IST
+#EXTINF:-1 logo="https://i.ibb.co/7xz4z0k2/Cricket.png" group-title="Info", Last Update: 05-Feb 20:41 IST
 http://fake.url/info
 
-#EXTINF:-1, No Live Matches Found
+#EXTINF:-1, No Live Cricket Found
 http://fake.url/empty
