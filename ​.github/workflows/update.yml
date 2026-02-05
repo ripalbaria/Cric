@@ -1,6 +1,7 @@
 name: Cricket Playlist Bot
 
 on:
+   push:
   schedule:
     - cron: '0 */1 * * *'  # Har ghante chalega
   workflow_dispatch:       # Manual Run button
