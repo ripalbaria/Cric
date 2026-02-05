@@ -1,7 +1,6 @@
 import requests
 import json
 import base64
-import time
 import pytz
 from datetime import datetime
 from requests.adapters import HTTPAdapter
@@ -27,47 +26,60 @@ def decrypt_cricz(encrypted_text):
     except:
         return None
 
-# --- ROBUST NETWORK SESSION (Anti-Block) ---
+# --- NETWORK SESSION ---
 def get_session():
     session = requests.Session()
-    # 3 Retries agar server connection kaat de
     retry = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
     adapter = HTTPAdapter(max_retries=retry)
     session.mount('http://', adapter)
     session.mount('https://', adapter)
-    session.headers.update({
-        "User-Agent": USER_AGENT,
-        "Accept": "application/json",
-        "Connection": "Keep-Alive",
-        "Accept-Encoding": "gzip"
-    })
+    session.headers.update({"User-Agent": USER_AGENT})
     return session
 
-# --- TIME FORMATTER (IST) ---
-def get_ist_time(time_str):
+# --- STATUS & TIME ENGINE ---
+def get_match_status_and_group(start_str, end_str, event_type):
+    # Default Values
+    status = "Upcoming"
+    
     try:
-        clean_time = time_str.split(" +")[0]
-        # Common formats check
-        for fmt in ["%Y/%m/%d %H:%M:%S", "%d/%m/%Y %H:%M:%S", "%Y-%m-%d %H:%M:%S"]:
-            try:
-                dt_obj = datetime.strptime(clean_time, fmt)
-                utc_zone = pytz.timezone('UTC')
-                ist_zone = pytz.timezone('Asia/Kolkata')
-                dt_utc = utc_zone.localize(dt_obj)
-                dt_ist = dt_utc.astimezone(ist_zone)
-                return dt_ist.strftime("%I:%M %p %d-%b")
-            except: continue
-        return time_str
-    except: return ""
+        # Parse Times (UTC) - Format: 2026/02/05 03:00:00 +0000
+        fmt = "%Y/%m/%d %H:%M:%S"
+        
+        # Clean strings (remove +0000 if present)
+        s_clean = start_str.split(" +")[0]
+        e_clean = end_str.split(" +")[0]
+        
+        start_dt = datetime.strptime(s_clean, fmt).replace(tzinfo=pytz.utc)
+        end_dt = datetime.strptime(e_clean, fmt).replace(tzinfo=pytz.utc)
+        
+        # Get Current Time in UTC
+        now = datetime.now(pytz.utc)
+        
+        # Compare
+        if now < start_dt:
+            status = "Upcoming"
+        elif start_dt <= now <= end_dt:
+            status = "LIVE"
+        else:
+            status = "Finished"
+            
+        # Create Group Name: "LIVE | ICC World Cup"
+        clean_event = event_type.replace(",", "").strip()
+        group_name = f"{status} | {clean_event}"
+        
+        return group_name, status
+        
+    except:
+        # Fallback if time parsing fails
+        return f"Live Cricket | {event_type}", "LIVE"
 
 # --- MAIN GENERATOR ---
 def generate_m3u():
-    print("🚀 Starting Universal Cricket Generator...")
+    print("🚀 Starting Smart Grouping Generator...")
     session = get_session()
     playlist_entries = []
     
     try:
-        # 1. Fetch Main List
         res = session.get(MAIN_URL, timeout=15)
         if res.status_code != 200: return
 
@@ -75,10 +87,9 @@ def generate_m3u():
         events_str = raw_json[0].get("events", "[]")
         encrypted_list = json.loads(events_str)
         
-        print(f"📋 Scanning {len(encrypted_list)} items for Cricket...")
+        print(f"📋 Scanning {len(encrypted_list)} items...")
         
         for enc_item in encrypted_list:
-            # Level 1 Decrypt
             dec_str = decrypt_cricz(enc_item)
             if not dec_str: continue
             
@@ -87,15 +98,13 @@ def generate_m3u():
                 matches = data if isinstance(data, list) else [data]
                 
                 for match in matches:
-                    # --- UNIVERSAL FILTER ---
-                    # Naam pata ho ya na ho, agar 'Cricket' hai to utha lo
-                    # Check in Category, EventName, EventType
-                    raw_cat = match.get("category", "").lower()
-                    evt_name = match.get("eventName", "") # Check original case later
+                    # --- CRICKET FILTER ---
                     evt_info = match.get("eventInfo", {})
-                    evt_type = evt_info.get("eventType", "").lower()
+                    raw_cat = match.get("category", "").lower()
+                    evt_name = match.get("eventName", "")
+                    evt_type = evt_info.get("eventType", match.get("title", "Cricket"))
                     
-                    is_cricket = "cricket" in raw_cat or "cricket" in evt_name.lower() or "cricket" in evt_type
+                    is_cricket = "cricket" in raw_cat or "cricket" in evt_name.lower() or "cricket" in evt_type.lower()
                     
                     if is_cricket:
                         # Info Extraction
@@ -109,93 +118,95 @@ def generate_m3u():
                             
                         logo = match.get("teamAFlag") or evt_info.get("eventLogo") or ""
                         
-                        # Time
-                        time_val = match.get("date", "") + " " + match.get("time", "")
-                        if len(time_val) < 5: time_val = evt_info.get("startTime", "")
+                        # --- NEW: STATUS & GROUP LOGIC ---
+                        start_time = match.get("date", "") + " " + match.get("time", "")
+                        if len(start_time) < 5: start_time = evt_info.get("startTime", "")
+                        end_time = evt_info.get("endTime", "")
                         
-                        ist_time = get_ist_time(time_val)
-                        group_title = f"Live Cricket [{ist_time}]" if ist_time else "Live Cricket"
+                        # Calculate Status
+                        group_title, status_tag = get_match_status_and_group(start_time, end_time, evt_type)
 
-                        print(f"   🏏 Processing: {title}")
-                        
-                        # --- DEEP LINK EXTRACTION STRATEGY ---
+                        # Skip Finished matches? (Optional: Comment next 2 lines to keep them)
+                        if status_tag == "Finished":
+                             continue 
+
+                        # Add Time to Title for clarity
+                        # Convert start_time to IST for display
+                        try:
+                            s_clean = start_time.split(" +")[0]
+                            dt_obj = datetime.strptime(s_clean, "%Y/%m/%d %H:%M:%S")
+                            ist_time = dt_obj.replace(tzinfo=pytz.utc).astimezone(pytz.timezone('Asia/Kolkata')).strftime("%I:%M %p")
+                            display_title = f"{title} ({ist_time})"
+                        except:
+                            display_title = title
+
+                        print(f"   🏏 {status_tag}: {display_title}")
+
+                        # --- LINK EXTRACTION (Wahi purana solid logic) ---
                         found_source = False
                         
-                        # PATH A: 'links' key (The Hidden Layer Route)
+                        # PATH A: 'links' key
                         json_path = match.get("links")
                         if json_path:
                             target_url = json_path if json_path.startswith("http") else BASE_URL + json_path
                             try:
                                 inner_res = session.get(target_url, timeout=15)
                                 if inner_res.status_code == 200:
-                                    # Level 2 Decrypt: File content
-                                    try:
-                                        inner_data = inner_res.json()
-                                    except:
-                                        inner_data = json.loads(decrypt_cricz(inner_res.text))
+                                    try: inner_data = inner_res.json()
+                                    except: inner_data = json.loads(decrypt_cricz(inner_res.text))
                                     
-                                    # Level 3 Decrypt: HIDDEN LAYER CHECK
-                                    # Agar 'links' key ke andar ek encrypted string hai (W3UogcP...)
+                                    # Hidden Layer Decrypt
                                     final_streams = []
                                     if isinstance(inner_data, dict) and "links" in inner_data and isinstance(inner_data["links"], str):
-                                        # Decrypt the hidden blob
                                         hidden_dec = decrypt_cricz(inner_data["links"])
-                                        if hidden_dec:
-                                            final_streams = json.loads(hidden_dec) # Yahan milta hai asli khazana
-                                    
-                                    # Fallback: Agar hidden layer nahi hai, to direct list use karo
+                                        if hidden_dec: final_streams = json.loads(hidden_dec)
                                     elif isinstance(inner_data, list):
                                         final_streams = inner_data
                                     elif isinstance(inner_data, dict):
-                                        # Keys like 'streamUrls' or 'channels'
                                         final_streams = inner_data.get("streamUrls", inner_data.get("channels", [inner_data]))
 
-                                    # --- PROCESS FINAL STREAMS ---
-                                    # Ensure it is a list
                                     if isinstance(final_streams, dict): final_streams = [final_streams]
                                     
                                     for s in final_streams:
-                                        # Keys can be 'link', 'url', 'file'
                                         stream_url = s.get("link") or s.get("url") or s.get("file")
-                                        drm_key = s.get("api") or s.get("drm_key") or s.get("tokenApi") # ClearKey
+                                        drm_key = s.get("api") or s.get("drm_key") or s.get("tokenApi")
                                         name = s.get("name") or s.get("title", "Stream")
                                         
                                         if stream_url:
-                                            entry = f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo}", {title} ({name})\n'
+                                            entry = f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo}", {display_title} [{name}]\n'
                                             if drm_key:
                                                 entry += '#KODIPROP:inputstream.adaptive.license_type=clearkey\n'
                                                 entry += f'#KODIPROP:inputstream.adaptive.license_key={drm_key}\n'
                                             entry += f'{stream_url}\n'
                                             playlist_entries.append(entry)
                                             found_source = True
-                            except Exception as e:
-                                print(f"      ⚠️ Inner fetch error: {e}")
+                            except: pass
 
-                        # PATH B: 'formats' key (Backup for simple matches)
+                        # PATH B: 'formats' key
                         if not found_source:
                             formats = match.get("formats", [])
                             for fmt in formats:
                                 url = fmt.get("webLink", "")
+                                name = fmt.get("title", "Direct")
                                 if url:
-                                    entry = f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo}", {title} (Direct)\n'
+                                    entry = f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo}", {display_title} [{name}]\n'
                                     entry += f'{url}\n'
                                     playlist_entries.append(entry)
 
             except Exception: continue
 
-        # --- SAVE M3U ---
+        # --- SAVE M3U (Without Info Folder) ---
         with open("cricket.m3u", "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-            f.write(f"#EXTINF:-1 logo=\"https://i.ibb.co/7xz4z0k2/Cricket.png\" group-title=\"Info\", Updated: {datetime.now().strftime('%d-%b %H:%M IST')}\n")
-            f.write("http://fake.url/info\n\n")
+            # Removed the fake Info entry as requested
             
             if playlist_entries:
                 for line in playlist_entries:
                     f.write(line + "\n")
             else:
-                f.write("#EXTINF:-1, No Live Cricket Found\nhttp://fake.url/empty\n")
+                f.write("#EXTINF:-1 group-title=\"Bot Status\", No Live/Upcoming Matches Found\nhttp://fake.url/empty\n")
         
-        print(f"✅ Success! Saved {len(playlist_entries)} streams to cricket.m3u")
+        print(f"✅ Success! Saved {len(playlist_entries)} streams.")
 
     except Exception as e:
         print(f"❌ Critical Error: {e}")
