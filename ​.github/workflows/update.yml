@@ -1,16 +1,16 @@
 name: Cricket Playlist Bot
 
 on:
-  push:                    # Ye line zaroori hai pehli baar run karne ke liye
+  push:
   schedule:
-    - cron: '0 */1 * * *'  # Har ghante chalega
-  workflow_dispatch:       # Manual button ke liye
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    permissions:           # Permissions add kiye hain taaki error na aaye
+    
+    permissions:
       contents: write
 
     steps:
