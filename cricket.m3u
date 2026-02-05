@@ -1,87 +1,396 @@
 #EXTM3U
-#EXTINF:-1 logo="https://i.ibb.co/7xz4z0k2/Cricket.png" group-title="Info", Updated: 05-Feb 21:05 IST
-http://fake.url/info
-
-#EXTINF:-1 group-title="Live Cricket [11:00 AM 07-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/187754/image", PAK vs NED (Link 1)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/187754/image", PAK vs NED [Link 1]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d37acaacb5e509d77ddb5eee498d506a:e3cf90a806fe71bb3d2d3dd48b930395
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8klpkb1lc9/out/v1/e35366cf215c4652882f8973a128be4e/cenc.mpd
 
-#EXTINF:-1 group-title="Live Cricket [07:00 PM 07-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", IND vs USA (Link 1)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", IND vs USA [Link 1]
 https://no.link
 
-#EXTINF:-1 group-title="Live Cricket [03:00 PM 07-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/187760/image", WI vs SCO (Link 1)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/187760/image", WI vs SCO [Link 1]
 https://no.link
 
-#EXTINF:-1 group-title="Live Cricket [05:30 PM 05-Feb]" tvg-logo="https://liquipedia.net/commons/images/thumb/1/1b/Dhumketu_allmode.png/140px-Dhumketu_allmode.png", Dhumketu vs Duronto (CricZ LIVE - AQ)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://liquipedia.net/commons/images/thumb/1/1b/Dhumketu_allmode.png/140px-Dhumketu_allmode.png", Dhumketu vs Duronto [CricZ LIVE - AQ]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"url":"https:\/\/kick.com\/api\/v2\/channels\/smashsp","api":"https:\/\/kick.com\/api\/v2\/channels\/smashsp","type":"sp","link_key":"playback_url","default_string":"9HY(#b1q6","request_type":"get","request_body_type":"text","ip_api":"https:\/\/api.ipify.org\/"}
 https://kick.com/api/v2/channels/smashsp
 
-#EXTINF:-1 group-title="Live Cricket [05:30 PM 05-Feb]" tvg-logo="https://liquipedia.net/commons/images/thumb/1/1b/Dhumketu_allmode.png/140px-Dhumketu_allmode.png", Dhumketu vs Duronto (CricZ LIVE - HD)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://liquipedia.net/commons/images/thumb/1/1b/Dhumketu_allmode.png/140px-Dhumketu_allmode.png", Dhumketu vs Duronto [CricZ LIVE - HD]
 https://livestreamt.prdv3.dlivecdn.com/kajgro/1770291764/src/live.m3u8?|referer=https://dlive.tv/&origin=https://dlive.tv/
 
-#EXTINF:-1 group-title="Live Cricket [01:00 PM 06-Feb]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", IND U19 vs ENG U19 (WILLOW - FHD)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", IND U19 vs ENG U19 [WILLOW - FHD]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=241b3705f104f5cd86e112b6987bc939:7267286ea3401d5472b377742894ed39
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/926qhyrwui/out/v1/8dd59c652f0844dd983d20d10e99c4a1/cenc.mpd
 
-#EXTINF:-1 group-title="Live Cricket [01:00 PM 06-Feb]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", IND U19 vs ENG U19 (PRIME - FHD)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", IND U19 vs ENG U19 [PRIME - FHD]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f159241d40e659d58e81bc17ca30da31:6b7fe24f7a16343bd447b0b30f68b7b2
 https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/att545vfjr/out/v1/450d606c6a17471f84d09372f55004e2/cenc.mpd
 
-#EXTINF:-1 group-title="Live Cricket [01:00 PM 06-Feb]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", IND U19 vs ENG U19 (ICC TV - FHD)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", IND U19 vs ENG U19 [ICC TV - FHD]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1770131602~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=9a8c906e-a026-4af4-827b-fcfeeacfa4cf~data=hdntl~hmac=271da724f070075e226ed908136361c7ef4a2e0831dbc13e071a62589a36b2df/manifest.mpd
 
-#EXTINF:-1 group-title="Live Cricket [07:30 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W (WILLOW - FHD)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W [WILLOW - FHD]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=184d72d779d377c28bad6d3823f6add0:95958c6e8fad4ad720559900f8137e6c
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qo2973mfx3/out/v1/3d75b0f59adc4f73830cb677041fb820/cenc.mpd
 
-#EXTINF:-1 group-title="Live Cricket [07:30 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W (HINDI - AQ)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W [HINDI - AQ]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"url":"https:\/\/allrounderlive.pages.dev\/dilz?id=65656576","api":"https:\/\/allrounderlive.pages.dev\/dilz?id=65656576","type":"embed","link_key":"playback_url","default_string":"9HY(#b1q6","request_type":"get","request_body_type":"text","ip_api":"https:\/\/api.ipify.org\/"}
 https://allrounderlive.pages.dev/dilz?id=65656576
 
-#EXTINF:-1 group-title="Live Cricket [07:30 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W (CricZ LIVE - LQ)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W [CricZ LIVE - LQ]
 http://195.178.110.25/hls/FAFAFAQ.m3u8|referer=http://www.fawanews.sc/
 
-#EXTINF:-1 group-title="Live Cricket [07:30 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W (HINDI - 2)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W [HINDI - 2]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"url":"https:\/\/run-machine.pages.dev\/?id=hindi","api":"https:\/\/run-machine.pages.dev\/?id=hindi","type":"embed","link_key":"playback_url","default_string":"9HY(#b1q6","request_type":"get","request_body_type":"text","ip_api":"https:\/\/api.ipify.org\/"}
 https://run-machine.pages.dev/?id=hindi
 
-#EXTINF:-1 group-title="Live Cricket [07:30 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W (CricLife - FHD)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W [CricLife - FHD]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9dc5ddd99e3c723bf109a504da715dac:d39d55e9ba386a86641ca9668abf2b0d
 https://ev-fast-mpd.starzplayarabia.com/live/eds/CricLife_Women_27112025/DASH/CricLife_Women_27112025.mpd
 
-#EXTINF:-1 group-title="Live Cricket [07:30 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W (STAR SPORTS ENGLISH (IND IP))
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W [STAR SPORTS ENGLISH (IND IP)]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d
 https://livetv-push.hotstar.com/dash/live/2002464/sshd1livetvwv/master.mpd?|Cookie=hdntl=exp=1770342424~acl=*sshd1livetv*~id=bc9a08c57948c3c0c24eb966d2823f01~data=hdntl~hmac=2b6710cf494fad721f82ce947510da1684fb0142e350b2bcab6818686a21946b&Origin=https://www.hotstar.com&Referer=https://www.hotstar.com/&User-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169(Android/15)
 
-#EXTINF:-1 group-title="Live Cricket [07:30 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W (STAR SPORTS HINDI (IND IP))
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", RCB W vs DC W [STAR SPORTS HINDI (IND IP)]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d
 https://livetv-push.hotstar.com/dash/live/2002466/sshindiwv/master.mpd?|Cookie=hdntl=exp=1770342423~acl=*sshindi*~id=65fe08cb397acbbbdbbbd6535aa670f7~data=hdntl~hmac=5a1b59fb9ba4ed16dc7398e6e113d073b81601b0d80460af0bea1f47cca46f69&Origin=https://www.hotstar.com&Referer=https://www.hotstar.com/&User-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169(Android/15)
 
-#EXTINF:-1 group-title="Live Cricket [03:00 PM 06-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/417772/image", ITA vs UAE (Link 1)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7e99f734748d098cbfa2f7bde968dd44:98ea6088c3222e9abaf61e537804d6cc
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u142pfptsm/out/v1/1caa3b2dfa9e448d8f61209bdfc1acdc/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ce20e2a4b3dd04e0a6e5469b7cb47be:163c323b65d0597b13f037641fd67b1e
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mttgh1c4ei/out/v1/9cc664b146744e2ba23066aa048efbc5/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=362202eefc5d9e42eec6450998cce9e8:978dfdd53186ec587d940e0bd1e2ec42
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/v5v9yfn62i/out/v1/0991e33d09da46b2857fcc845db95c40/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d0f2e5c39e70c18f29bf77768a1ad89a:d6853c51fcf37a18905f0609972395d7
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9097a1b7d04b7786b29f2b0e155316d:279695ebe0fb1bc5787422b6b59ce8a8
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mrskysvotx/out/v1/ad58961bd8fd48d2944e461c034b8914/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a93c1cbfdccd23233bac13540c693e7f:2f6ab2e6693eb847eff3c9da8f9d01fc
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [ESPANYOL]
+https://bbb.exoadash.com/TVD1583/index.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/2363/image", ATP vs ATP [ESPANYOL 2]
+https://bbb.exoadash.com/TVD1584/index.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/35/image/dark", Bundesliga vs Bundesliga [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5ff8b1c2bfe7f365558c84dacee3ea8c:cfb135e777e45e57fe0637da00800cde
+https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/w7ab9k2tub/out/v1/2bd0e976da9d49f081727acbc6d6ba97/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png", EPL vs EPL [PEACOCK ENGLISH FHD]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0d7762d99dd4e4a2f010bebb0a00c981:ed97592e5d9b63405065b66e3a2d1215
+https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rmyuydta6g/out/v1/2114fbee6b964f1ba472eed32fc43410/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://images.fotmob.com/image_resources/logo/leaguelogo/dark/47.png", EPL vs EPL [SKY SPORTS EPL FHD]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ca4316630f56d6f33e9ff73b7ad211d1:72c54e5646055f444e99bc1123919e89
+https://abe4mdzaaaaaaaampzanwc57oxzti.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/9o6jmlyjpm/out/v1/ad80a9bfecc6438f82f2af41c58d7fb8/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://i.ibb.co/WWVmYQcG/20251125-230453.png", WWE RAW vs WWE RAW [CricZ LIVE - SD]
+https://android-database1.firebase-api.com/AccessLog2/108085_SD/apache.m3u8|Referer=https://android-database1.firebase-api.com
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://i.ibb.co/WWVmYQcG/20251125-230453.png", WWE RAW vs WWE RAW [CricZ LIVE - AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://i.ibb.co/mrYSQqvn/reduced-1000629328.jpg", WWE NXT vs WWE NXT [SD]
+https://android-database1.firebase-api.com/AccessLog2/108085_SD/apache.m3u8|Referer=https://android-database1.firebase-api.com
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://i.ibb.co/mrYSQqvn/reduced-1000629328.jpg", WWE NXT vs WWE NXT [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD4CtXLwYAbtTpwhdSTfIy95tQKAM-OFD97Qri_4PMsw&s=10", AEW vs AEW [CricZ LIVE - AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=362202eefc5d9e42eec6450998cce9e8:978dfdd53186ec587d940e0bd1e2ec42
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/v5v9yfn62i/out/v1/0991e33d09da46b2857fcc845db95c40/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD4CtXLwYAbtTpwhdSTfIy95tQKAM-OFD97Qri_4PMsw&s=10", AEW vs AEW [CricZ LIVE - AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9f327d24c66fbd84e15ab5c9ead7c7a4:83837185529c0c4048f81386c2d36426
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD4CtXLwYAbtTpwhdSTfIy95tQKAM-OFD97Qri_4PMsw&s=10", AEW vs AEW [CricZ LIVE - HD]
+https://android-database1.firebase-api.com/AccessLog2/108085_SD/apache.m3u8|Referer=https://android-database1.firebase-api.com
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://i.ibb.co/nsJJkp61/20250513-152753.jpg", SmackDown vs SmackDown [CricZ LIVE - FHD]
+https://pl4.wecanfix5.space/playlist/43392/load-playlist?|Referer=https://gooz.aapmains.net
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://i.ibb.co/nsJJkp61/20250513-152753.jpg", SmackDown vs SmackDown [CricZ LIVE - SD]
+https://android-database1.firebase-api.com/AccessLog2/108085_SD/apache.m3u8|Referer=https://android-database1.firebase-api.com
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://i.ibb.co/nsJJkp61/20250513-152753.jpg", SmackDown vs SmackDown [USA TV - USA VPN]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=58551b13211b37d5b325d67e5c6cabef:3b4c3f8b4236fc57d66cdb54a606fe41
+https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDNfv9gghV940Sqe3yK0Ff2ZA5XA05VjxBw&s", TNA iMPACT vs TNA iMPACT [HD]
+https://gg.poocloud.in/wrestling/index.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDNfv9gghV940Sqe3yK0Ff2ZA5XA05VjxBw&s", TNA iMPACT vs TNA iMPACT [HD]
+https://android-database1.firebase-api.com/AccessLog2/108087_SD/apache.m3u8|Referer=https://android-database1.firebase-api.com
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDNfv9gghV940Sqe3yK0Ff2ZA5XA05VjxBw&s", TNA iMPACT vs TNA iMPACT [HD]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"url":"https:\/\/embedsports.top\/embed\/admin\/ppv-tna-impact\/1","api":"https:\/\/embedsports.top\/embed\/admin\/ppv-tna-impact\/1","type":"embed","link_key":"playback_url","default_string":"9HY(#b1q6","request_type":"get","request_body_type":"text","ip_api":"https:\/\/api.ipify.org\/"}
+https://embedsports.top/embed/admin/ppv-tna-impact/1
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtmVeaW8MXfpiZtx6b2S_SFqa-VNXUmSq_uW_6lxuWQ&s=10", Friday Fights vs Friday Fights [LINK 1]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtmVeaW8MXfpiZtx6b2S_SFqa-VNXUmSq_uW_6lxuWQ&s=10", Friday Fights vs Friday Fights [LINK 2]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={
+    "keys": [
+        {
+            "kty": "oct",
+            "k": "MNW1eZZtgishXsUakdiicQ",
+            "kid": "YNwIquUvTAuAao5D8koSyA"
+        }
+    ],
+    "type": "temporary"
+}
+https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtmVeaW8MXfpiZtx6b2S_SFqa-VNXUmSq_uW_6lxuWQ&s=10", Friday Fights vs Friday Fights [LINK 3]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0
+https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtmVeaW8MXfpiZtx6b2S_SFqa-VNXUmSq_uW_6lxuWQ&s=10", Friday Fights vs Friday Fights [LINK 4]
+http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/461372/image", M. Bautista vs V. Oliveira [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=63867ca40427cb9b64ac1ac34c8b7283:b361070c4ba4efd0a90b98294efe8632
+https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/zdixenzgj1/out/v1/93add4a89bd54ad882fbf4bdb091cf99/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/461372/image", M. Bautista vs V. Oliveira [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=86e99aa029d030dd92c44a050371b53d:c069758538c001e48eb8b36c2db2d515
+https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/gxfoiwuf5f/out/v1/27764d13c6574b75b3f556360c2b3f13/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/461372/image", M. Bautista vs V. Oliveira [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/461372/image", M. Bautista vs V. Oliveira [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=39bc65e1b683db44460338d881c5577e:ad1762308040904c1ac40dff5c52eb78
+https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wafubl9ljj/out/v1/852cf76f94634a4baa8ea8da481f8493/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/461372/image", M. Bautista vs V. Oliveira [HD]
+https://red1.ignitelaunch.shop/playlist/43964/load-playlist?|Referer=https://gooz.aapmains.net/
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/461372/image", M. Bautista vs V. Oliveira [HD]
+https://601.xn--1000-ugoxe8a5a7g4h.com/ataide.m3u8
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://i.ibb.co/TBR8q3Bm/mgpp.png", MotoGP vs MotoGP [HD]
+https://gg.poocloud.in/pl_goalrush/tracks-v1a1/mono.ts.m3u8?|Referer=https://pooembed.top/&Origin=https://pooembed.top
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [FC - FHD]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe
+https://a166aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [SKY SPORTS F1]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=62ac0f0c382a696058c8598821d6591d:75a5350cc5bc7eb38efeb694ec13e0a0
+https://abe4mdzaaaaaaaampzanwc57oxzti.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/mayn9zpunj/out/v1/5623834d108749bebb71979abdfe7dd8/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [FOX SPORTS]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2fbdaa3bea0d0323ae011b318d1db716:8726ef7eaf5b9dce15fb6aa9f80bd53f
+https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [TSN]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ce20e2a4b3dd04e0a6e5469b7cb47be:163c323b65d0597b13f037641fd67b1e
+https://abm5x5xaaaaaaaamjwfbpek7fak66.otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mttgh1c4ei/out/v1/9cc664b146744e2ba23066aa048efbc5/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [HD]
+https://ishitasinghisabum.xyz/live/etihad-airways-abu-dhabi-grand-prix1080p/index.m3u8
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [HD]
+https://red9.lumenlyra.space/playlist/40629/load-playlist?|Referer=https://gooz.aapmains.net
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [LQ]
+https://mainstreams.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [SD]
+https://broadcasthub.click/hls/RdKfpotjL5g/index.m3u8
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [SD]
+https://broadcasthub.click/hls/07HL6dzqKCAr/index.m3u8
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3gK5Xue6lZKz0AXCZbx3CLTuwnHCasxVTw&usqp=CAU", Formula 1 vs Formula 1 [SD]
+https://broadcasthub.click/hls/2TwVTzn52PwS/index.m3u8
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/417772/image", ITA vs UAE [Link 1]
 https://no.link
 
-#EXTINF:-1 group-title="Live Cricket [05:00 PM 06-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/199275/image", NAM vs IND-A (Link 1)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/199275/image", NAM vs IND-A [Link 1]
 https://no.link
 
-#EXTINF:-1 group-title="Live Cricket [07:00 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", NZ vs USA (WILLOW - FHD)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", NZ vs USA [WILLOW - FHD]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e102e5e4588647e557dd665205e85190:3ec10282b22856413376e1a389f6dfe8
 https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/obayxwdkbv/out/v1/d530d3c023db4f34b05c2b4018b18fde/cenc.mpd
 
-#EXTINF:-1 group-title="Live Cricket [07:00 PM 05-Feb]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", NZ vs USA (ICC TV - FHD)
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", NZ vs USA [ICC TV - FHD]
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-09)/manifest.mpd?vcfilter=2c1864fe-c2cc-46e4-9e90-63148f66471f
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463097/image", Vancouver vs Cruz Azul [HD]
+https://play.ltwxsc.com/live/sd-6MvZ64e1iFtfe9S2tE.m3u8?txSecret=acc076c748d13c828c3e02950d5eef31&txTime=698434C0
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/463097/image", Vancouver vs Cruz Azul [HD]
+https://d12.epicquesthero.com:999/hls/do30.m3u8?md5=psLkHja7l1QHa6wvnp5LDA&expires=1770267659|Referer=https://vividmosaica.com/
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/3085/image", Konyaspor vs Aliağa [SD]
+http://195.178.110.25/hls/JNNNQ.m3u8|referer=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/3052/image", Fenerbahçe vs Erzurumspor [Link 1]
+https://no.link
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/3065/image", Kocaelispor vs Beşiktaş [SD]
+http://195.178.110.25/hls/JNNNQ.m3u8|referer=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/2686/image", Atalanta vs Juventus [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/2686/image", Atalanta vs Juventus [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/2686/image", Atalanta vs Juventus [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest_hr.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/3001/image", Sporting vs AVS [Link 1]
+https://no.link
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/39733/image", Al-Sadd vs Al-Shahaniya [SD]
+http://195.178.110.25/hls/TTTTEQ.m3u8|referer=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/44444/image", Al-Arabi vs Al Shamal SC [SD]
+http://195.178.110.25/hls/FEEE.m3u8|referer=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/336456/image", Al-Okhdood vs Al-Hilal [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/336456/image", Al-Okhdood vs Al-Hilal [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733
+https://abc3orwaaaaaaaamph5ea7uktav3d.ottb.live.cf.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/336456/image", Al-Okhdood vs Al-Hilal [FHD]
+https://bbb.exoadash.com/TVD1451/index.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/34469/image", Al-Ahli vs Al-Hazem [FHD]
+https://bbb.exoadash.com/TVD6737/index.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/2816/image", Real Betis vs Atl. Madrid [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7a5135975978757b3458bb5b3b9dbf5e:eab16719fa7727ab371bd75aeaca9229
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/ze8mlq7soh/out/v1/e517a8b1bede4a0d9c0cf48f591a2222/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/34060/image", Al-Sharjah vs Shabab Al-Ahli [AQ]
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/1659/image", Strasbourg vs AS Monaco [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/2972/image", Telstar vs GA Eagles [AQ]
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://abd5xpeaaaaaaaamn2tirj37mzzps.ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/44439/image", Al-Sailiya vs Al-Gharafa [SD]
+http://195.178.110.25/hls/TTTTE.m3u8|referer=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/187/image", Accrington vs Salford [Link 1]
+https://no.link
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/168094/image", Al-Fayha vs Al-Najma [FHD]
+https://bbb.exoadash.com/TVD1403/index.mpd
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/168094/image", Al-Fayha vs Al-Najma [SD]
+http://195.178.110.25/hls/TTTTEQQQ.m3u8|referer=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/1954/image", Cruzeiro vs Coritiba [Link 1]
+https://no.link
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/1974/image", Vasco vs Chapecoense [Link 1]
+https://no.link
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/3224/image", Juventud vs Universidad Católica [Link 1]
+https://no.link
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/1955/image", Bahia vs Fluminense [Link 1]
+https://no.link
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/488540/image", I. Vitasović vs H. Moeil [Link 1]
+https://img.sofascore.com/api/v1/team/472354/image
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/461666/image", U. Nurmagomedov vs A. Davis [Link 1]
+d
+
+#EXTINF:-1 group-title="Live Cricket | Cricket" tvg-logo="https://img.sofascore.com/api/v1/team/479606/image", M. Gasanov vs A. Tumenov [Link 1]
+d
 
