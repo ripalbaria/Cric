@@ -1,170 +1,148 @@
 import requests
 import json
 import base64
-import os
-from datetime import datetime, timedelta
+import pytz
+from datetime import datetime
 
-# --- Configuration ---
-MAIN_URL = "https://abczaccadec.space/app.json"
+# --- CONFIGURATION ---
 BASE_URL = "https://abczaccadec.space/"
+MAIN_URL = "https://abczaccadec.space/app.json"
 USER_AGENT = "okhttp/4.9.0"
 
-# --- Decryption Logic (The "Key" you found) ---
+# --- DECRYPTION ENGINE ---
 def decrypt_cricz(encrypted_text):
-    # Maps from Smali
+    if not encrypted_text: return None
     src = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
     target = "fFgGjJkKaApPbBmMoOzZeEnNcCdDrRqQtTvVuUxXhHiIwWyYlLsS"
-    
     try:
         decode_map = str.maketrans(target, src)
         substituted_str = encrypted_text.translate(decode_map)
-        
-        # Fix padding
         missing_padding = len(substituted_str) % 4
         if missing_padding:
             substituted_str += '=' * (4 - missing_padding)
-            
         return base64.b64decode(substituted_str).decode('utf-8')
-    except Exception:
+    except:
         return None
 
-# --- Helper: Convert Time to IST ---
-def get_ist_time(date_str):
-    # Example Input: 07/02/2026 05:30:00
+# --- TIME FORMATTER ---
+def get_ist_time(date_str, time_str):
     try:
-        # Parse assuming UTC or Server Time. Adjust logic if server is already IST.
-        # Assuming the date format in JSON is DD/MM/YYYY HH:MM:SS
-        dt_obj = datetime.strptime(date_str, "%d/%m/%Y %H:%M:%S")
-        # If server time is UTC, add 5h 30m for IST
-        # If server time is already IST, remove the timedelta line
-        # Based on logs, it often looks like UTC. Let's add IST offset.
-        ist_time = dt_obj # + timedelta(hours=5, minutes=30) 
-        return ist_time.strftime("%I:%M %p %d-%b")
+        full_str = f"{date_str} {time_str}"
+        dt_obj = datetime.strptime(full_str, "%d/%m/%Y %H:%M:%S")
+        utc_zone = pytz.timezone('UTC')
+        ist_zone = pytz.timezone('Asia/Kolkata')
+        dt_utc = utc_zone.localize(dt_obj)
+        dt_ist = dt_utc.astimezone(ist_zone)
+        return dt_ist.strftime("%I:%M %p")
     except:
-        return date_str
+        return f"{time_str}"
 
-# --- Main Generator ---
-def generate_playlist():
-    print(f"[*] Connecting to Server...")
+# --- MAIN LOGIC ---
+def generate_m3u():
+    print("🚀 Starting Generator (Fix: Links + Formats)...")
     
     try:
         headers = {"User-Agent": USER_AGENT}
-        response = requests.get(MAIN_URL, headers=headers)
+        res = requests.get(MAIN_URL, headers=headers)
+        if res.status_code != 200: return
+
+        raw_json = res.json()
+        events_str = raw_json[0].get("events", "[]")
+        encrypted_list = json.loads(events_str)
         
-        if response.status_code != 200:
-            print("Server error")
-            return
-
-        raw_json = response.json()
-        if not isinstance(raw_json, list) or len(raw_json) == 0:
-            return
-
-        # 1. Extract and Parse the 'events' string
-        events_string = raw_json[0].get("events", "[]")
-        events_list = json.loads(events_string)
+        print(f"📋 Processing {len(encrypted_list)} items...")
+        playlist_entries = []
         
-        print(f"[*] Found {len(events_list)} total events. Processing...")
-
-        m3u_content = ["#EXTM3U"]
-        m3u_content.append('#EXTINF:-1 logo="https://i.ibb.co/7xz4z0k2/Cricket.png" group-title="Info", Auto-Updated Playlist')
-        m3u_content.append("http://fake.url/info")
-
-        for encrypted_data in events_list:
-            # 2. Decrypt Event
-            decrypted_str = decrypt_cricz(encrypted_data)
+        for enc_item in encrypted_list:
+            dec_str = decrypt_cricz(enc_item)
+            if not dec_str: continue
             
-            if decrypted_str:
-                try:
-                    data = json.loads(decrypted_str)
+            try:
+                data = json.loads(dec_str)
+                matches = data if isinstance(data, list) else [data]
+                
+                for match in matches:
+                    # Filter: Cricket Only
+                    cat = match.get("category", "").lower()
+                    title = match.get("eventName", "").lower()
                     
-                    # Ensure it's a list for iteration
-                    matches = data if isinstance(data, list) else [data]
-                    
-                    for match in matches:
-                        # 3. Filter for CRICKET
-                        cat = match.get("category", "").lower()
-                        event_name = match.get("eventName", "").lower()
+                    if "cricket" in cat or "cricket" in title or "ipl" in title or "cup" in title:
                         
-                        if "cricket" in cat or "cricket" in event_name:
-                            
-                            # Basic Info
-                            title = match.get("eventName", "Cricket Match")
-                            team_a = match.get("teamAName", "")
-                            team_b = match.get("teamBName", "")
-                            match_title = f"{team_a} vs {team_b}" if team_a and team_b else title
-                            
-                            logo = match.get("teamAFlag", match.get("categoryLogo", ""))
-                            
-                            # Time Handling
-                            raw_date = match.get("date", "")
-                            raw_time = match.get("time", "")
-                            full_time_str = f"{raw_date} {raw_time}"
-                            formatted_time = get_ist_time(full_time_str)
-                            
-                            # Group Title with Time (As requested)
-                            group_name = f"Live Cricket ({formatted_time})"
+                        # Info
+                        event_name = match.get("eventName", "Cricket")
+                        team_a = match.get("teamAName", "")
+                        team_b = match.get("teamBName", "")
+                        display_title = f"{team_a} vs {team_b} - {event_name}" if team_a and team_b else event_name
+                        logo = match.get("teamAFlag", match.get("categoryLogo", ""))
+                        
+                        time_ist = get_ist_time(match.get("date", ""), match.get("time", ""))
+                        group_title = f"Live Cricket [{time_ist}]"
+                        
+                        # --- STRATEGY 1: Check 'links' (Inner JSON) ---
+                        json_path = match.get("links", "")
+                        link_found = False
+                        
+                        if json_path:
+                            inner_url = json_path if json_path.startswith("http") else BASE_URL + json_path
+                            try:
+                                inner_res = requests.get(inner_url, headers=headers)
+                                if inner_res.status_code == 200:
+                                    stream_data = None
+                                    try:
+                                        stream_data = inner_res.json()
+                                    except:
+                                        dec_inner = decrypt_cricz(inner_res.text)
+                                        if dec_inner: stream_data = json.loads(dec_inner)
+                                    
+                                    if stream_data:
+                                        # Handle List or Object inside inner JSON
+                                        streams = stream_data if isinstance(stream_data, list) else [stream_data]
+                                        for s in streams:
+                                            url = s.get("link", s.get("url", ""))
+                                            drm = s.get("api", "")
+                                            name = s.get("title", "Stream")
+                                            
+                                            if url:
+                                                ent = f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo}", {display_title} ({name})\n'
+                                                if drm:
+                                                    ent += '#KODIPROP:inputstream.adaptive.license_type=clearkey\n'
+                                                    ent += f'#KODIPROP:inputstream.adaptive.license_key={drm}\n'
+                                                ent += f'{url}\n'
+                                                playlist_entries.append(ent)
+                                                link_found = True
+                            except:
+                                pass
 
-                            # 4. Handle Inner JSON Links ("links" field)
-                            json_link = match.get("links", "")
-                            
-                            if json_link:
-                                # Construct full URL
-                                target_url = json_link if json_link.startswith("http") else BASE_URL + json_link
-                                print(f"   -> Fetching inner JSON: {target_url}")
+                        # --- STRATEGY 2: Check 'formats' (Direct Links) if Strategy 1 failed/skipped ---
+                        # (Sometimes matches have both, so we can check formats regardless)
+                        formats = match.get("formats", [])
+                        if formats:
+                            for fmt in formats:
+                                url = fmt.get("webLink", "")
+                                name = fmt.get("title", "Direct Stream")
                                 
-                                try:
-                                    inner_res = requests.get(target_url, headers=headers)
-                                    inner_data = None
-                                    
-                                    # Try decrypting inner data first (Consistency)
-                                    if inner_res.status_code == 200:
-                                        # Often inner data is also encrypted or raw JSON
-                                        # Let's try raw JSON first
-                                        try:
-                                            inner_data = inner_res.json()
-                                        except:
-                                            # If raw json fails, try decrypting string
-                                            decrypted_inner = decrypt_cricz(inner_res.text)
-                                            if decrypted_inner:
-                                                inner_data = json.loads(decrypted_inner)
-                                    
-                                    if inner_data:
-                                        # Extract stream info from inner JSON
-                                        # Assuming inner JSON has a 'link' or 'stream_url'
-                                        # Adjust keys based on actual inner json structure
-                                        stream_link = inner_data.get("link", inner_data.get("url", ""))
-                                        drm_key = inner_data.get("api", "") # USER SAID: API IS CLEARKEY
-                                        
-                                        if stream_link:
-                                            # Write to M3U
-                                            header = f'#EXTINF:-1 group-title="{group_name}" tvg-logo="{logo}", {match_title}'
-                                            m3u_content.append(header)
-                                            
-                                            # Add DRM Headers if 'api' key exists
-                                            if drm_key:
-                                                m3u_content.append('#KODIPROP:inputstream.adaptive.license_type=clearkey')
-                                                m3u_content.append(f'#KODIPROP:inputstream.adaptive.license_key={drm_key}')
-                                            
-                                            m3u_content.append(stream_link)
+                                if url:
+                                    ent = f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo}", {display_title} ({name})\n'
+                                    ent += f'{url}\n'
+                                    playlist_entries.append(ent)
+                                    link_found = True
 
-                                except Exception as e:
-                                    print(f"Error fetching inner JSON: {e}")
+            except Exception:
+                continue
 
-                            # 5. Handle Direct Links ('formats' array) if inner link failed or doesn't exist
-                            # (Add logic here if 'formats' are prioritized)
-
-                except Exception as e:
-                    pass
-        
-        # Save File
+        # Save
         with open("cricket.m3u", "w", encoding="utf-8") as f:
-            f.write("\n".join(m3u_content))
+            f.write("#EXTM3U\n")
+            f.write(f"#EXTINF:-1 logo=\"https://i.ibb.co/7xz4z0k2/Cricket.png\" group-title=\"Info\", Last Update: {datetime.now().strftime('%H:%M IST')}\n")
+            f.write("http://fake.url/info\n\n")
+            for line in playlist_entries:
+                f.write(line + "\n")
         
-        print("[*] Playlist 'cricket.m3u' generated successfully!")
+        print(f"✅ Saved {len(playlist_entries)} streams.")
 
     except Exception as e:
-        print(f"[!] Critical Error: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
-    generate_playlist()
+    generate_m3u()
 
