@@ -1,0 +1,34 @@
+name: Cricket Playlist Bot
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Allows manual run button
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Libraries
+        run: pip install -r requirements.txt
+
+      - name: Run Extraction Script
+        run: python cric_gen.py
+
+      - name: Push Changes
+        run: |
+          git config --global user.name "CricBot"
+          git config --global user.email "bot@github.com"
+          git add cricket.m3u
+          git commit -m "Updated Cricket Playlist" || exit 0
+          git push
+
