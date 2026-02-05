@@ -1,14 +1,17 @@
 name: Cricket Playlist Bot
 
 on:
-   push:
+  push:                    # Ye line zaroori hai pehli baar run karne ke liye
   schedule:
     - cron: '0 */1 * * *'  # Har ghante chalega
-  workflow_dispatch:       # Manual Run button
+  workflow_dispatch:       # Manual button ke liye
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:           # Permissions add kiye hain taaki error na aaye
+      contents: write
 
     steps:
       - name: Checkout Code
@@ -19,11 +22,10 @@ jobs:
         with:
           python-version: '3.9'
 
-      # YAHAN CHANGE KIYA HAI: requirements.txt ki jagah seedha install
       - name: Install Dependencies
         run: pip install requests pytz
 
-      - name: Run Generator
+      - name: Run Generator Script
         run: python cric_gen.py
 
       - name: Commit and Push
@@ -31,5 +33,5 @@ jobs:
           git config --global user.name "AutoBot"
           git config --global user.email "bot@github.com"
           git add cricket.m3u
-          git commit -m "Auto Update: $(date)" || echo "No changes to commit"
+          git commit -m "Auto Update Playlist" || echo "No changes to commit"
           git push
