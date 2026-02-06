@@ -1,4 +1,4 @@
-from curl_cffi import requests # IMPORTANT: Using curl_cffi instead of standard requests
+from curl_cffi import requests
 import json
 import base64
 import re
@@ -24,14 +24,13 @@ def decrypt_cricz(encrypted_text):
     except:
         return None
 
-# --- SPECIAL LINK EXTRACTOR (Kick & Pages) ---
+# --- SPECIAL LINK EXTRACTOR ---
 def get_real_link(url, session):
     try:
-        # 1. KICK.COM LOGIC (API v2 with Browser Impersonation)
+        # 1. KICK.COM LOGIC
         if "kick.com" in url:
             print(f"      🕵️ Processing Kick: {url}")
             if "/api/v2/channels/" not in url:
-                # Extract slug from normal URL (e.g. kick.com/smashsp -> smashsp)
                 parts = url.rstrip('/').split('/')
                 slug = parts[-1]
                 api_url = f"https://kick.com/api/v2/channels/{slug}"
@@ -39,7 +38,7 @@ def get_real_link(url, session):
                 api_url = url
             
             try:
-                # Impersonate Chrome to bypass Cloudflare
+                # Impersonate Chrome
                 k_res = session.get(api_url, impersonate="chrome110", timeout=15)
                 if k_res.status_code == 200:
                     data = k_res.json()
@@ -47,26 +46,22 @@ def get_real_link(url, session):
                     if m3u8:
                         print("      ✅ Kick m3u8 Extracted!")
                         return m3u8
-            except Exception as e:
-                print(f"      ❌ Kick API Error: {e}")
+            except: pass
 
-        # 2. RUN-MACHINE / PAGES LOGIC (Source Code Scrape)
+        # 2. RUN-MACHINE / PAGES LOGIC
         elif "pages.dev" in url or "run-machine" in url:
             print(f"      🕵️ Processing Page: {url}")
             try:
-                # Fetch page source like a browser
                 p_res = session.get(url, impersonate="chrome110", timeout=15)
                 if p_res.status_code == 200:
-                    # Regex to find .m3u8 inside the HTML/JS
                     match = re.search(r'["\'](https?://.*?\.m3u8.*?)["\']', p_res.text)
                     if match:
                         print("      ✅ Page m3u8 Scraped!")
                         return match.group(1)
-            except Exception as e:
-                print(f"      ❌ Page Scrape Error: {e}")
+            except: pass
 
-        return url  # Agar koi special case nahi hai, to original URL return karo
-    except Exception as e:
+        return url
+    except:
         return url
 
 # --- TIME PARSER ---
@@ -85,7 +80,6 @@ def get_status(start_str, end_str):
     try:
         start_dt = parse_dt(start_str)
         end_dt = parse_dt(end_str)
-        # Default duration 6 hours if end time missing
         if not end_dt and start_dt: end_dt = start_dt + timedelta(hours=6)
         if not start_dt: return "Unknown"
         
@@ -98,18 +92,14 @@ def get_status(start_str, end_str):
 
 # --- MAIN GENERATOR ---
 def generate_m3u():
-    print("🚀 Starting Generator with curl_cffi...")
-    # Use curl_cffi Session directly
+    print("🚀 Starting Generator (Kick & Pages Fix)...")
     session = requests.Session() 
     
     playlist_entries = []
     
     try:
-        # Fetch Main JSON using Chrome impersonation
         res = session.get(MAIN_URL, impersonate="chrome110", timeout=20)
-        if res.status_code != 200: 
-            print("❌ Main URL blocked or down")
-            return
+        if res.status_code != 200: return
 
         raw_json = res.json()
         events_str = raw_json[0].get("events", "[]")
@@ -126,7 +116,7 @@ def generate_m3u():
                 matches = data if isinstance(data, list) else [data]
                 
                 for match in matches:
-                    # 1. FILTER: Cricket Only
+                    # 1. FILTER
                     evt_info = match.get("eventInfo", {})
                     raw_cat = match.get("category", "").lower()
                     evt_name = match.get("eventName", "")
@@ -135,13 +125,13 @@ def generate_m3u():
                     is_cricket = "cricket" in raw_cat or "cricket" in evt_name.lower() or "cricket" in evt_type.lower()
                     if not is_cricket: continue
 
-                    # 2. MATCH INFO
+                    # 2. INFO
                     team_a = match.get("teamAName") or evt_info.get("teamA", "")
                     team_b = match.get("teamBName") or evt_info.get("teamB", "")
                     match_title = f"{team_a} vs {team_b}" if (team_a and team_b) else (evt_name or "Cricket Match")
                     logo = match.get("teamAFlag") or evt_info.get("eventLogo") or ""
                     
-                    # 3. TIME & STATUS
+                    # 3. TIME
                     date_part = match.get("date", "")
                     time_part = match.get("time", "")
                     if date_part and time_part: start_time = f"{date_part} {time_part}"
@@ -150,7 +140,6 @@ def generate_m3u():
                     
                     status = get_status(start_time, end_time)
                     
-                    # 4. GROUP NAME
                     try:
                         dt_obj = parse_dt(start_time)
                         if dt_obj:
@@ -163,13 +152,18 @@ def generate_m3u():
 
                     print(f"   🏏 Processing: {group_title}")
 
-                    # 5. LINK PROCESSING
+                    # 4. LINKS
                     found_source = False
                     
                     def add_entry(url, name, drm=""):
-                        # Extract Real Link (Kick/Pages logic applied here)
+                        # Get Real Link
                         real_url = get_real_link(url, session)
                         
+                        # *** CRITICAL FIX: Disable DRM for Kick AND Pages ***
+                        # Agar Kick ya Pages/Run-Machine hai, to DRM uda do
+                        if "kick.com" in url or "kick.com" in real_url or "pages.dev" in url or "run-machine" in url:
+                            drm = "" 
+
                         entry = f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo}", {name}\n'
                         if drm:
                             entry += '#KODIPROP:inputstream.adaptive.license_type=clearkey\n'
@@ -177,19 +171,17 @@ def generate_m3u():
                         entry += f'{real_url}\n'
                         playlist_entries.append(entry)
 
-                    # A. Check Inner JSON
+                    # A. Inner JSON
                     json_path = match.get("links")
                     if json_path:
                         target_url = json_path if json_path.startswith("http") else BASE_URL + json_path
                         try:
-                            # Fetch Inner JSON with impersonation
                             inner_res = session.get(target_url, impersonate="chrome110", timeout=15)
                             if inner_res.status_code == 200:
                                 try: inner_data = inner_res.json()
                                 except: inner_data = json.loads(decrypt_cricz(inner_res.text))
                                 
                                 final_streams = []
-                                # Double Decrypt Logic
                                 if isinstance(inner_data, dict) and "links" in inner_data and isinstance(inner_data["links"], str):
                                     hidden_dec = decrypt_cricz(inner_data["links"])
                                     if hidden_dec: final_streams = json.loads(hidden_dec)
@@ -209,7 +201,7 @@ def generate_m3u():
                                         found_source = True
                         except: pass
 
-                    # B. Check Formats (Direct Links)
+                    # B. Formats
                     if not found_source:
                         formats = match.get("formats", [])
                         for fmt in formats:
@@ -220,7 +212,7 @@ def generate_m3u():
 
             except Exception: continue
 
-        # --- SAVE M3U ---
+        # --- SAVE ---
         with open("cricket.m3u", "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             if playlist_entries:
