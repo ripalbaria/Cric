@@ -72,13 +72,3 @@ https://no.link
 #EXTINF:-1 group-title="UPCOMING | NAM vs IND-A [06 Feb 05:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199275/image", Link 1
 https://no.link
 
-#EXTINF:-1 group-title="FINISHED | NZ vs USA [05 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", WILLOW - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e102e5e4588647e557dd665205e85190:3ec10282b22856413376e1a389f6dfe8
-https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/obayxwdkbv/out/v1/d530d3c023db4f34b05c2b4018b18fde/cenc.mpd
-
-#EXTINF:-1 group-title="FINISHED | NZ vs USA [05 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", ICC TV - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-09)/manifest.mpd?vcfilter=2c1864fe-c2cc-46e4-9e90-63148f66471f
-
