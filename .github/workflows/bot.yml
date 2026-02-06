@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.9'
 
-      # YAHAN CHANGE HAI: curl-cffi install karna zaroori hai
+      # IMPORTANT: curl-cffi add kiya hai
       - name: Install Dependencies
         run: pip install curl-cffi pytz
 
