@@ -3,8 +3,8 @@ name: Cricket Bot
 on:
   push:
   schedule:
-    - cron: '0 */1 * * *'
-  workflow_dispatch:
+    - cron: '0 */1 * * *'  # Har ghante chalega
+  workflow_dispatch:       # Manual Run button
 
 jobs:
   build:
@@ -22,8 +22,9 @@ jobs:
         with:
           python-version: '3.9'
 
+      # YAHAN CHANGE HAI: curl-cffi install karna zaroori hai
       - name: Install Dependencies
-        run: pip install requests pytz
+        run: pip install curl-cffi pytz
 
       - name: Run Generator Script
         run: python cric_gen.py
@@ -33,6 +34,5 @@ jobs:
           git config --global user.name "AutoBot"
           git config --global user.email "bot@github.com"
           git add cricket.m3u
-          git commit -m "New Update" || exit 0
+          git commit -m "Auto Update Playlist" || exit 0
           git push
-
