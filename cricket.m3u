@@ -1,68 +1,45 @@
 #EXTM3U
-#EXTINF:-1 group-title="UPCOMING | PAK vs NED [07 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187754/image", Link 1
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs USA [07 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", PRIME - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d37acaacb5e509d77ddb5eee498d506a:e3cf90a806fe71bb3d2d3dd48b930395
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8klpkb1lc9/out/v1/e35366cf215c4652882f8973a128be4e/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=ed76c18710d621a87c89dedc7c13019f:7241c82fe48525a9dc6be6d7bb86611f
+https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/fclywfntvr/out/v1/e21d21ec21e34c7192049a44ee3de428/cenc.mpd
 
-#EXTINF:-1 group-title="UPCOMING | IND vs USA [07 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", Link 1
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs USA [07 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", PRIME - HIN
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dc9ab6bff6028c1685847a104e2d5a21:de34baecf3f167ad1c847836397d38ca
+https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/dash/enc/feh5lmnfkl/out/v1/2f30a0bcdbc64a09b2e101d0b71ed290/cenc.mpd
+
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs USA [07 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", WILLOW - FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=13fd592a875d595e2afc150d453f2315:7f9389f4cc1e80a783b469884474e4c4
+https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/376jpidmmb/out/v1/2f32e2710ef44a91982adcf2f7d858eb/cenc.mpd
+
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs USA [07 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", CricZ LIVE - HIN
+https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.TsTvbsw6KV8b.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvVHNUdmJzdzZLVjhiIiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20saHR0cHM6Ly94Ym94LmtpY2suY29tLGh0dHBzOi8vcGxheXN0YXRpb24ua2ljay5jb20saHR0cHM6Ly8qLmtpY2stZGV2ZWxvcG1lbnQuY29tIiwiYXdzOnN0cmljdC1vcmlnaW4tZW5mb3JjZW1lbnQiOmZhbHNlLCJleHAiOjE3NzA0ODA5NjZ9.Ihc0NUwchjv9oHB4QgCs3qt5epqt6y4YzIhLsKAAQvV7e587CNAIXdIiyNIOyVW7HjDLyU2ZJCawt8H_dvhkLRSrJG34ym7DQ36_RlBiVb0foyB1QfRXhnwP14q0g4TT
+
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs USA [07 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", CricZ LIVE - SD
+http://b.rtzsa.cfd/hls/FFFF.m3u8|referer=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs USA [07 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", CricZ LIVE - HIN
+https://match-central.pages.dev/?id=jio-hotstar
+
+#EXTINF:-1 group-title="LIVE 🔴 | Duronto vs Durbar [07 Feb 05:30 PM]" tvg-logo="https://liquipedia.net/commons/images/thumb/5/5a/Duronto_allmode.png/143px-Duronto_allmode.png", CricZ LIVE - AQ
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"url":"https:\/\/tv.roarzone.info\/player.php?stream=bk\/53","api":"https:\/\/tv.roarzone.info\/player.php?stream=bk\/53","type":"embed","link_key":"playback_url","default_string":"9HY(#b1q6","request_type":"get","request_body_type":"text","ip_api":"https:\/\/api.ipify.org\/"}
+https://tv.roarzone.info/player.php?stream=bk/53
+
+#EXTINF:-1 group-title="UPCOMING | NZ vs AFG [08 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", Link 1
 https://no.link
 
-#EXTINF:-1 group-title="UPCOMING | WI vs SCO [07 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187760/image", Link 1
+#EXTINF:-1 group-title="UPCOMING | ENG vs NEP [08 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", Link 1
 https://no.link
 
-#EXTINF:-1 group-title="FINISHED | Dhumketu vs Duronto [05 Feb 05:30 PM]" tvg-logo="https://liquipedia.net/commons/images/thumb/1/1b/Dhumketu_allmode.png/140px-Dhumketu_allmode.png", CricZ LIVE - AQ
-https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.jNDSocbGTtBT.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvak5EU29jYkdUdEJUIiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20saHR0cHM6Ly94Ym94LmtpY2suY29tLGh0dHBzOi8vcGxheXN0YXRpb24ua2ljay5jb20saHR0cHM6Ly8qLmtpY2stZGV2ZWxvcG1lbnQuY29tIiwiYXdzOnN0cmljdC1vcmlnaW4tZW5mb3JjZW1lbnQiOmZhbHNlLCJleHAiOjE3NzAzNjQxNDR9.JYoVx0OK6CezBYXY1dbIS5V4ttb0YZVuQ_BqOeojMYN4sXkIl2hcy9L0WEDI9Z-0I-weiQqtiuKRd8LvKs0tATgGwUkWYm9DG7jS3EL51-nI2voYk_il6HQ3Z6KA38-V
-
-#EXTINF:-1 group-title="FINISHED | Dhumketu vs Duronto [05 Feb 05:30 PM]" tvg-logo="https://liquipedia.net/commons/images/thumb/1/1b/Dhumketu_allmode.png/140px-Dhumketu_allmode.png", CricZ LIVE - HD
-https://livestreamt.prdv3.dlivecdn.com/kajgro/1770291764/src/live.m3u8?|referer=https://dlive.tv/&origin=https://dlive.tv/
-
-#EXTINF:-1 group-title="LIVE 🔴 | IND U19 vs ENG U19 [06 Feb 01:00 PM]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", WILLOW - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3d7a73de8c41b3ba9125a6544e5f89bf:8f93b0a810e89801ef8fa1fbb4cd59d2
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kbndcj80tn/out/v1/31fc126027704d56bd0e09134a19085a/cenc.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | IND U19 vs ENG U19 [06 Feb 01:00 PM]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", PRIME - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f159241d40e659d58e81bc17ca30da31:6b7fe24f7a16343bd447b0b30f68b7b2
-https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/att545vfjr/out/v1/450d606c6a17471f84d09372f55004e2/cenc.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | IND U19 vs ENG U19 [06 Feb 01:00 PM]" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWwGrBzJ98sHubUETGRLK2VVaA5lMHcVPmw&s", ICC TV - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=ab179ffc-6dbd-4cdc-bc0c-a31e13745497
-
-#EXTINF:-1 group-title="FINISHED | RCB W vs DC W [05 Feb 07:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", WILLOW - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=184d72d779d377c28bad6d3823f6add0:95958c6e8fad4ad720559900f8137e6c
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qo2973mfx3/out/v1/3d75b0f59adc4f73830cb677041fb820/cenc.mpd
-
-#EXTINF:-1 group-title="FINISHED | RCB W vs DC W [05 Feb 07:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", HINDI - AQ
-https://allrounderlive.pages.dev/dilz?id=65656576
-
-#EXTINF:-1 group-title="FINISHED | RCB W vs DC W [05 Feb 07:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", CricZ LIVE - LQ
-http://195.178.110.25/hls/FAFAFAQ.m3u8|referer=http://www.fawanews.sc/
-
-#EXTINF:-1 group-title="FINISHED | RCB W vs DC W [05 Feb 07:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", HINDI - 2
-https://run-machine.pages.dev/?id=hindi
-
-#EXTINF:-1 group-title="FINISHED | RCB W vs DC W [05 Feb 07:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", CricLife - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9dc5ddd99e3c723bf109a504da715dac:d39d55e9ba386a86641ca9668abf2b0d
-https://ev-fast-mpd.starzplayarabia.com/live/eds/CricLife_Women_27112025/DASH/CricLife_Women_27112025.mpd
-
-#EXTINF:-1 group-title="FINISHED | RCB W vs DC W [05 Feb 07:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", STAR SPORTS ENGLISH (IND IP)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d
-https://livetv-push.hotstar.com/dash/live/2002464/sshd1livetvwv/master.mpd?|Cookie=hdntl=exp=1770342424~acl=*sshd1livetv*~id=bc9a08c57948c3c0c24eb966d2823f01~data=hdntl~hmac=2b6710cf494fad721f82ce947510da1684fb0142e350b2bcab6818686a21946b&Origin=https://www.hotstar.com&Referer=https://www.hotstar.com/&User-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169(Android/15)
-
-#EXTINF:-1 group-title="FINISHED | RCB W vs DC W [05 Feb 07:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/463895/image", STAR SPORTS HINDI (IND IP)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d
-https://livetv-push.hotstar.com/dash/live/2002466/sshindiwv/master.mpd?|Cookie=hdntl=exp=1770342423~acl=*sshindi*~id=65fe08cb397acbbbdbbbd6535aa670f7~data=hdntl~hmac=5a1b59fb9ba4ed16dc7398e6e113d073b81601b0d80460af0bea1f47cca46f69&Origin=https://www.hotstar.com&Referer=https://www.hotstar.com/&User-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169(Android/15)
-
-#EXTINF:-1 group-title="UPCOMING | ITA vs UAE [06 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/417772/image", Link 1
+#EXTINF:-1 group-title="UPCOMING | SL vs IRE [08 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", Link 1
 https://no.link
 
-#EXTINF:-1 group-title="UPCOMING | NAM vs IND-A [06 Feb 05:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199275/image", Link 1
+#EXTINF:-1 group-title="UPCOMING | ZIM vs OMA [09 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187745/image", Link 1
+https://no.link
+
+#EXTINF:-1 group-title="UPCOMING | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", Link 1
 https://no.link
 
