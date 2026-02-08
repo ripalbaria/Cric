@@ -1,9 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="FINISHED | Duronto vs Durbar [07 Feb 05:30 PM]" tvg-logo="https://liquipedia.net/commons/images/thumb/5/5a/Duronto_allmode.png/143px-Duronto_allmode.png", CricZ LIVE - AQ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"url":"https:\/\/tv.roarzone.info\/player.php?stream=bk\/53","api":"https:\/\/tv.roarzone.info\/player.php?stream=bk\/53","type":"embed","link_key":"playback_url","default_string":"9HY(#b1q6","request_type":"get","request_body_type":"text","ip_api":"https:\/\/api.ipify.org\/"}
-https://tv.roarzone.info/player.php?stream=bk/53
-
 #EXTINF:-1 group-title="UPCOMING | NZ vs AFG [08 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", Link 1
 https://no.link
 
@@ -13,9 +8,14 @@ https://no.link
 #EXTINF:-1 group-title="UPCOMING | SL vs IRE [08 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", Link 1
 https://no.link
 
+#EXTINF:-1 group-title="UPCOMING | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", Link 1
+https://no.link
+
 #EXTINF:-1 group-title="UPCOMING | ZIM vs OMA [09 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187745/image", Link 1
 https://no.link
 
-#EXTINF:-1 group-title="UPCOMING | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", Link 1
-https://no.link
+#EXTINF:-1 group-title="FINISHED | Duronto vs Durbar [07 Feb 05:30 PM]" tvg-logo="https://liquipedia.net/commons/images/thumb/5/5a/Duronto_allmode.png/143px-Duronto_allmode.png", CricZ LIVE - AQ
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"url":"https:\/\/tv.roarzone.info\/player.php?stream=bk\/53","api":"https:\/\/tv.roarzone.info\/player.php?stream=bk\/53","type":"embed","link_key":"playback_url","default_string":"9HY(#b1q6","request_type":"get","request_body_type":"text","ip_api":"https:\/\/api.ipify.org\/"}
+https://tv.roarzone.info/player.php?stream=bk/53
 
