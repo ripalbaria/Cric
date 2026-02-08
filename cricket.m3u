@@ -5,7 +5,7 @@
 https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/1ohdhd8cgj/out/v1/99b88a548afa47e5bfc38781e8479c3a/cenc.mpd
 
 #EXTINF:-1 group-title="LIVE 🔴 | NZ vs AFG [08 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", CricZ - HINDI
-https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.TsTvbsw6KV8b.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvVHNUdmJzdzZLVjhiIiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20saHR0cHM6Ly94Ym94LmtpY2suY29tLGh0dHBzOi8vcGxheXN0YXRpb24ua2ljay5jb20saHR0cHM6Ly8qLmtpY2stZGV2ZWxvcG1lbnQuY29tIiwiYXdzOnN0cmljdC1vcmlnaW4tZW5mb3JjZW1lbnQiOmZhbHNlLCJleHAiOjE3NzA1NDU0NDF9.0XRl2fO8nbR0ApevTafGZhTeKd3HFz07ZHudkMsyC9-cVfLD17ANiAD8u90Oyglhhd0obR7ICFWDCqlLwU2GP_WvZUpBF-Jby_sVNpDH1IjwHM8PXc9NNArgIQcTXLKn
+https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.TsTvbsw6KV8b.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvVHNUdmJzdzZLVjhiIiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20saHR0cHM6Ly94Ym94LmtpY2suY29tLGh0dHBzOi8vcGxheXN0YXRpb24ua2ljay5jb20saHR0cHM6Ly8qLmtpY2stZGV2ZWxvcG1lbnQuY29tIiwiYXdzOnN0cmljdC1vcmlnaW4tZW5mb3JjZW1lbnQiOmZhbHNlLCJleHAiOjE3NzA1NDYwMjh9.4t-76DExDst2KstXdjKX8M88MRBHpNHQu6wkaTpfEtT_J30y60GA4CEzuKKIuSP_KI76j8XV67APetaDIzV8h5tuz4lL0pBC2WPXTb4A6q7bsxjpphY5hQCM9HvFRYN6
 
 #EXTINF:-1 group-title="LIVE 🔴 | NZ vs AFG [08 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", PRIME - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -25,19 +25,24 @@ http://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live
 #EXTINF:-1 group-title="LIVE 🔴 | NZ vs AFG [08 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187755/image", CricZ - HINDI 2
 https://match-central.pages.dev/?id=jio-hotstar
 
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs NEP [08 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7fce97a407353d25b9eaa30fc7912cb0:9e85cdfd40ef00f30d1efda90645a1f0
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ceirtxu4zb/out/v1/696d22efd0ac49aba1dfbdc79abc4526/cenc.mpd
+
 #EXTINF:-1 group-title="LIVE 🔴 | ENG vs NEP [08 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", PRIME - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cd2266bd1085a92143007be26296daeb:1a21a3cbb8e8062c3a82135a47389c2b
 https://a65live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/ryfoddshmd/out/v1/2298afadf64943adb0b44dc540ace1ce/cenc.mpd
 
 #EXTINF:-1 group-title="LIVE 🔴 | ENG vs NEP [08 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", CricZ - HINDI
-https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.TsTvbsw6KV8b.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvVHNUdmJzdzZLVjhiIiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20saHR0cHM6Ly94Ym94LmtpY2suY29tLGh0dHBzOi8vcGxheXN0YXRpb24ua2ljay5jb20saHR0cHM6Ly8qLmtpY2stZGV2ZWxvcG1lbnQuY29tIiwiYXdzOnN0cmljdC1vcmlnaW4tZW5mb3JjZW1lbnQiOmZhbHNlLCJleHAiOjE3NzA1NDU0NDF9.0XRl2fO8nbR0ApevTafGZhTeKd3HFz07ZHudkMsyC9-cVfLD17ANiAD8u90Oyglhhd0obR7ICFWDCqlLwU2GP_WvZUpBF-Jby_sVNpDH1IjwHM8PXc9NNArgIQcTXLKn
-
-#EXTINF:-1 group-title="LIVE 🔴 | ENG vs NEP [08 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - FHD
-ok
+https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.TsTvbsw6KV8b.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvVHNUdmJzdzZLVjhiIiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20saHR0cHM6Ly94Ym94LmtpY2suY29tLGh0dHBzOi8vcGxheXN0YXRpb24ua2ljay5jb20saHR0cHM6Ly8qLmtpY2stZGV2ZWxvcG1lbnQuY29tIiwiYXdzOnN0cmljdC1vcmlnaW4tZW5mb3JjZW1lbnQiOmZhbHNlLCJleHAiOjE3NzA1NDYwMjh9.4t-76DExDst2KstXdjKX8M88MRBHpNHQu6wkaTpfEtT_J30y60GA4CEzuKKIuSP_KI76j8XV67APetaDIzV8h5tuz4lL0pBC2WPXTb4A6q7bsxjpphY5hQCM9HvFRYN6
 
 #EXTINF:-1 group-title="LIVE 🔴 | ENG vs NEP [08 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", CricZ - HINDI 2
 https://match-central.pages.dev/?id=jio-hotstar
+
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs NEP [08 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - LQ
+http://b.rtzsa.cfd/hls/BBZZZ.m3u8|referer=http://www.fawanews.sc/
 
 #EXTINF:-1 group-title="UPCOMING | SL vs IRE [08 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", Link 1
 https://no.link
