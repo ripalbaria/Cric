@@ -2,10 +2,29 @@
 #EXTINF:-1 group-title="UPCOMING | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", Link 1
 https://no.link
 
-#EXTINF:-1 group-title="UPCOMING | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", WILLOW - FHD
+#EXTINF:-1 group-title="LIVE 🔴 | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", WILLOW - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3c96d235bf8f1faf56a7b2afec269e23:23fa920eca9d7083f799eaa36bf09844
 https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/5tustx9crz/out/v1/c921ac116ebf4e259acb4ae2aa0e1572/cenc.mpd
+
+#EXTINF:-1 group-title="LIVE 🔴 | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", PRIME - FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d0df0607d2c9f7f175a1b68b2dd74af9:3b9bceeb5dd81d6e906217d27f831cee
+https://ottb.live.cf.ww.aiv-cdn.net/sin-nitro/live/dash/enc/dn7vupw4sj/out/v1/d7130f460d41486ea7e8e3eb45f0522f/cenc.mpd
+
+#EXTINF:-1 group-title="LIVE 🔴 | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", TAPMAD - AQ
+https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-Enc1-1series/master.m3u8
+
+#EXTINF:-1 group-title="LIVE 🔴 | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", CricZ LIVE - HINDI
+http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8
+
+#EXTINF:-1 group-title="LIVE 🔴 | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", CricZ LIVE - SD
+http://b.rtzsa.cfd/hls/HUHUHU.m3u8|referer=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="LIVE 🔴 | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", CricZ LIVE - AQ
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"url":"https:\/\/pl-repid.deadxploit.workers.dev\/?pl=1&ch=star sports","api":"https:\/\/pl-repid.deadxploit.workers.dev\/?pl=1&ch=star sports","type":"sp","link_key":"playback_url","default_string":"9HY(#b1q6","request_type":"get","request_body_type":"text","ip_api":"https:\/\/api.ipify.org\/"}
+https://pl-repid.deadxploit.workers.dev/?pl=1&ch=star sports
 
 #EXTINF:-1 group-title="UPCOMING | ZIM vs OMA [09 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187745/image", Link 1
 https://no.link
