@@ -2,8 +2,10 @@
 #EXTINF:-1 group-title="UPCOMING | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", Link 1
 https://no.link
 
-#EXTINF:-1 group-title="UPCOMING | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", Link 1
-https://no.link
+#EXTINF:-1 group-title="UPCOMING | SCO vs ITA [09 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187576/image", WILLOW - FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3c96d235bf8f1faf56a7b2afec269e23:23fa920eca9d7083f799eaa36bf09844
+https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/5tustx9crz/out/v1/c921ac116ebf4e259acb4ae2aa0e1572/cenc.mpd
 
 #EXTINF:-1 group-title="UPCOMING | ZIM vs OMA [09 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187745/image", Link 1
 https://no.link
