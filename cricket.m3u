@@ -1,21 +1,21 @@
 #EXTM3U
-#EXTINF:-1 group-title="LIVE 🔴 | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", WILLOW - FHD
+#EXTINF:-1 group-title="FINISHED | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", WILLOW - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d8ec1c3ac2ae4bd4b48f4f915187bc88:df51ea1ff710506db9241546f5e95b9a
 https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/rudjkvklmx/out/v1/fcd986f37b52441598b2da02449b1649/cenc.mpd
 
-#EXTINF:-1 group-title="LIVE 🔴 | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", ICC TV - HINDI
+#EXTINF:-1 group-title="FINISHED | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", ICC TV - HINDI
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?iu=/21771797736/icc/web/live&hdnts=st=1770642029~exp=1770642069~acl=/variant/v1/dai-event-prd-pal-west/vcg-01-d/*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~hmac=acb3fce0b2e6201562631d8d46cf33fc1d77b4a8ceab9146d59b3dc02f04b10e&hdcore=2.11.3|User-Agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
 
-#EXTINF:-1 group-title="LIVE 🔴 | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", CricZ LIVE - HD
+#EXTINF:-1 group-title="FINISHED | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", CricZ LIVE - HD
 https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
-#EXTINF:-1 group-title="LIVE 🔴 | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", CricZ LIVE - SD
+#EXTINF:-1 group-title="FINISHED | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", CricZ LIVE - SD
 http://195.178.110.27/hls/HUHUHU.m3u8|referer=http://www.fawanews.sc/
 
-#EXTINF:-1 group-title="LIVE 🔴 | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", CricZ LIVE - LQ
+#EXTINF:-1 group-title="FINISHED | SA vs CAN [09 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", CricZ LIVE - LQ
 https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
 #EXTINF:-1 group-title="UPCOMING | NED vs NAM [10 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187840/image", Link 1
@@ -55,5 +55,5 @@ https://no.link
 https://no.link
 
 #EXTINF:-1 group-title="FINISHED | DUB vs DHU [09 Feb 05:30 PM]" tvg-logo="https://liquipedia.net/commons/images/thumb/2/26/Durbar_allmode.png/96px-Durbar_allmode.png", Link 1
-https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.YnTLEmRn83t8.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvWW5UTEVtUm44M3Q4IiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20saHR0cHM6Ly94Ym94LmtpY2suY29tLGh0dHBzOi8vcGxheXN0YXRpb24ua2ljay5jb20saHR0cHM6Ly8qLmtpY2stZGV2ZWxvcG1lbnQuY29tIiwiYXdzOnN0cmljdC1vcmlnaW4tZW5mb3JjZW1lbnQiOmZhbHNlLCJleHAiOjE3NzA2NjU0MzR9.KI2oVD9MysGnnPfgXjoXXb602gtaJMsk2UpJUbRF08XniQszFDmnJVXtPNtM2wsbqJ10Qt_0MSCROzj8I4wITufv5xqZfDJHLwoKfPWZL-nUGU2mRAKAAtvnhPY-eD-q
+https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.YnTLEmRn83t8.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvWW5UTEVtUm44M3Q4IiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20saHR0cHM6Ly94Ym94LmtpY2suY29tLGh0dHBzOi8vcGxheXN0YXRpb24ua2ljay5jb20saHR0cHM6Ly8qLmtpY2stZGV2ZWxvcG1lbnQuY29tIiwiYXdzOnN0cmljdC1vcmlnaW4tZW5mb3JjZW1lbnQiOmZhbHNlLCJleHAiOjE3NzA2NjYwNDV9.vFlXUEl86LrGkeMvysTcJyEKz3zalcU2JMWGwz_eRe5vx4VOlbnim9wYXeqe69uZnb5Yy2fzNrzMSeHl1KoNMPTIpKcdF7MhOG5rP3uJwInYWcPUgu_Ds1KGc3l6Ze2G
 
