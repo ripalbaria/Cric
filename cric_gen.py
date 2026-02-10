@@ -6,8 +6,8 @@ import pytz
 from datetime import datetime, timedelta
 
 # --- CONFIGURATION ---
-BASE_URL = "https://hshshebegge.store/"
-MAIN_URL = "https://hshshebegge.store/app.json"
+BASE_URL = "https://hsheuwoebhe.site/"
+MAIN_URL = "https://hsheuwoebhe.site/app.json"
 
 # --- DECRYPTION ENGINE ---
 def decrypt_cricz(encrypted_text):
