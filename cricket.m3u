@@ -14,6 +14,11 @@ https://a120live-pv-ta-amazon.akamaized.net/syd-nitro/live/clients/dash/enc/83ta
 #KODIPROP:inputstream.adaptive.license_key=79584ff8854536a3829f177423cdf684:e6c7e6a131dea887edf696d50cd24ba9
  https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-01)/manifest.mpd?vcfilter=3cc34926-d53f-4aad-8a4b-2a743eb16e4a
 
+#EXTINF:-1 group-title="LIVE 🔴 | PAK vs USA [10 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187754/image", ICC TV - HIN
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=79584ff8854536a3829f177423cdf684:e6c7e6a131dea887edf696d50cd24ba9
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=1ebc6353-cad5-4fa8-936a-0d2702fbacff
+
 #EXTINF:-1 group-title="LIVE 🔴 | PAK vs USA [10 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187754/image", ICC TV - ENG
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=79584ff8854536a3829f177423cdf684:e6c7e6a131dea887edf696d50cd24ba9
