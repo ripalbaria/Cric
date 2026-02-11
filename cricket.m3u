@@ -1,76 +1,52 @@
 #EXTM3U
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a41c95c1e6a751d5a933a3f51577d64e:133ac215f2ae4e9f2e12e53039feb218
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ehrpudmjpv/out/v1/fc790c2a85e14cbe9b8b7ce51004612f/cenc.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", PRIME - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=02b6e65ff2e3c3cf55a52426e03161dc:8cd7fa1463f0e7624725e89389d181e6
-https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/ksczi4sz0e/out/v1/a3f76c40f2c74804876697c4c284780f/cenc.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", ICC TV - HINDI
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=79584ff8854536a3829f177423cdf684:e6c7e6a131dea887edf696d50cd24ba9
-https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=cb2194e5-2fa0-4720-8cdd-47652dd27ca5
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", ICC TV - ENG
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=79584ff8854536a3829f177423cdf684:e6c7e6a131dea887edf696d50cd24ba9
-https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=416b79af-e55f-4c9d-9279-fb6a5314831e
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - HD
-https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - LQ
-https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", STAR ENG - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", STAR HIN - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", STAR TAMIL - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", STAR TELEGU - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", STAR KANNADA - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?
-
-#EXTINF:-1 group-title="UPCOMING | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0aec2fcbea8d842e2d6196fc12fc5208:ea343750354836dcab261575956326a3
-https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/cqqpbb9tmi/out/v1/62a1d9fa14bb4acfad5085e413df06c0/cenc.mpd
-
-#EXTINF:-1 group-title="UPCOMING | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", PRIME - FHD
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", PRIME - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e2135bf415cfea9ea3e6b26a6fce8fc3:2671da359a0a860668baca2e34f243f6
 https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/ldbdk8wq9y/out/v1/d25c047441ed467595c8085109e0d73f/cenc.mpd
 
-#EXTINF:-1 group-title="UPCOMING | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", ICC TV - HINDI
-h
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0aec2fcbea8d842e2d6196fc12fc5208:ea343750354836dcab261575956326a3
+https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/cqqpbb9tmi/out/v1/62a1d9fa14bb4acfad5085e413df06c0/cenc.mpd
 
-#EXTINF:-1 group-title="UPCOMING | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", ICC TV - ENG
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", ICC TV - HINDI
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=79584ff8854536a3829f177423cdf684:e6c7e6a131dea887edf696d50cd24ba9
+https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=cc21d012-74f0-4254-9e49-8f2fad24ad0e
+
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", ICC TV - ENG
 hs
 
-#EXTINF:-1 group-title="UPCOMING | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - HD
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - HD
 https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
-#EXTINF:-1 group-title="UPCOMING | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - LQ
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", WILLOW - LQ
 https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
+
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", ENGLISH - IND IP
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?
+
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", HINDI - IND IP
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?
+
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", TAMIL - IND IP
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd
+
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", TELUGU - IND IP
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd
+
+#EXTINF:-1 group-title="LIVE 🔴 | ENG vs WI [11 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187757/image", KANNADA - IND IP
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?
 
 #EXTINF:-1 group-title="FINISHED | SA-W vs PAK-W [10 Feb 09:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/213118/image", SD
 https://sportssurge.stream/get.php?link=aHR0cDovLzM4LjE5MC4xNzguNTQ6ODA4OS9jcmM4L2luZGV4Lm0zdTg=
