@@ -1,23 +1,28 @@
 #EXTM3U
-#EXTINF:-1 group-title="UPCOMING | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", WILLOW - FHD
+#EXTINF:-1 group-title="LIVE 🔴 | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", WILLOW - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=22cd0ec2afca5856e14cacf040976a01:8344dde990164381deac77425cb9df6d
 https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/lbglzgatjz/out/v1/473fb0f645384bebbc4b86ce06d8fdb7/cenc.mpd
 
-#EXTINF:-1 group-title="UPCOMING | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", ICC TV - HINDI
+#EXTINF:-1 group-title="LIVE 🔴 | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", PRIME - FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=75902b6304efb1d6323c833d42347d68:70c40016a0bba8ddc3aabcee112970c8
+https://a127aivottlinear-a.akamaihd.net/OTTB/syd-nitro/clients/dash/enc/vuhqryreea/out/v1/bedaa948e7a24dc0b5fd5d7b38534d8c/cenc.mpd
+
+#EXTINF:-1 group-title="LIVE 🔴 | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", ICC TV - HINDI
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=79584ff8854536a3829f177423cdf684:e6c7e6a131dea887edf696d50cd24ba9
-https://sportzfyapk.short.gy/icc-hin.mpd
+https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=ebc9ada3-4955-45c8-a2d2-f5f0850d3017
 
-#EXTINF:-1 group-title="UPCOMING | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", ICC TV - NEG
+#EXTINF:-1 group-title="LIVE 🔴 | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", ICC TV - ENG
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=79584ff8854536a3829f177423cdf684:e6c7e6a131dea887edf696d50cd24ba9
 https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=bf67cc30-fbb9-4c43-8a5d-c7006f71e372
 
-#EXTINF:-1 group-title="UPCOMING | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", WILLOW - HD
+#EXTINF:-1 group-title="LIVE 🔴 | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", WILLOW - HD
 https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
-#EXTINF:-1 group-title="UPCOMING | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", WILLOW - LQ
+#EXTINF:-1 group-title="LIVE 🔴 | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", WILLOW - LQ
 https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
 #EXTINF:-1 group-title="UPCOMING | AUS vs IRE [11 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", Link 1
