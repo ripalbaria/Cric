@@ -6,8 +6,8 @@ https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/lbglzgatjz/
 
 #EXTINF:-1 group-title="LIVE 🔴 | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", PRIME - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=75902b6304efb1d6323c833d42347d68:70c40016a0bba8ddc3aabcee112970c8
-https://a127aivottlinear-a.akamaihd.net/OTTB/syd-nitro/clients/dash/enc/vuhqryreea/out/v1/bedaa948e7a24dc0b5fd5d7b38534d8c/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=0b3da1a7909770f53373b0fbba96ceb0:4561b97456e7b68904bf01057cc8e6ab
+https://a120live-pv-ta-amazon.akamaized.net/syd-nitro/live/dash/enc/chzr1hyion/out/v1/d7130f460d41486ea7e8e3eb45f0522f/cenc.mpd
 
 #EXTINF:-1 group-title="LIVE 🔴 | SA vs AFG [11 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187747/image", ICC TV - HINDI
 #KODIPROP:inputstream.adaptive.license_type=clearkey
