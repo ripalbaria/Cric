@@ -1,5 +1,10 @@
 #EXTM3U
-#EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", PRIME VID
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", PRIME - ENG
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ed76c18710d621a87c89dedc7c13019f:7241c82fe48525a9dc6be6d7bb86611f
+https://a20aivottepl-a.akamaihd.net/syd-nitro/clients/dash/enc/wv2ipszuik/out/v1/51e65f7749fe4cc78f6c108fa09ff29c/cenc.mpd 
+
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", PRIME - HINDI
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b07e9785466b831915621dc51ed50d3c:af30a9d18114259f21a3cc9e34ff649d
 https://a166aivottlinear-a.akamaihd.net/OTTB/bom-nitro/live/dash/enc/igjuwt107o/out/v1/489e489428ce4992b9bd784d6b948ab3/cenc.mpd
@@ -9,10 +14,15 @@ https://a166aivottlinear-a.akamaihd.net/OTTB/bom-nitro/live/dash/enc/igjuwt107o/
 #KODIPROP:inputstream.adaptive.license_key=9b46f722b6b64d4830629d4341b837a2:c6c925d12a2f5e982ed83e508407b25c
 https://otte.live.fly.ww.aiv-cdn.net/sin-nitro/live/clients/dash/enc/glyngcujgc/out/v1/02c5d30ca7f744bc8794243145a8abbc/cenc.mpd
 
-#EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", HUB PREMIER 4
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", ICC TV - HINDI
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=42a10a01419642de97ee025db907fccd:04173eabe97faf32a1697878f5bdb156
-https://CO2-BKS400-05.starhubgo.com:443/bpk-token/1ab@veziebgvedreifmc13utqsricmfjgcjqv0zknzca/bpk-tv/HubSports1HDnew1/output/manifest.mpd?bkm-query
+#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
+https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=bc8ace65-8dbd-4bf1-8bd7-2a0dcca8edb2
+
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", ICC TV - ENG
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
+https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=39d36e9e-3128-45f1-9868-1a5d1d43e6c4
 
 #EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", WILLOW - HD
 https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
@@ -41,78 +51,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.m
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd
 
 #EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", STAR KANNADA - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?
-
-#EXTINF:-1 group-title="FINISHED | SL vs OMA [12 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", WILLOW - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=60c0741d258fbfd78aa1d41704fcd209:75f8540c88e3380f7b19d715310f6b76
-https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/ke6xhwh4p1/out/v1/a2dfe0fa8568446fa5766eefb3407ef5/cenc.mpd
-
-#EXTINF:-1 group-title="FINISHED | SL vs OMA [12 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", PRIME - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0e87c8731b86d92c957d8bb216cc70a3:e0f098f4c2c54be0911a12b96b469b82
-https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/irzmr34ebk/out/v1/6cd7efb72fd04edcaaef15c290c6fa9d/cenc.mpd
-
-#EXTINF:-1 group-title="FINISHED | SL vs OMA [12 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", WILLOW - HD
-https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
-
-#EXTINF:-1 group-title="FINISHED | SL vs OMA [12 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", WILLOW - LQ
-https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", PRIME - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2904b17cb64c996dbc254981b7602863:66a7ef671b84498e64f94e8401fe8cb9
-https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/0q80caubnh/out/v1/d61c7af3122d4cffb059904a26835baa/cenc.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", ICC TV - NEPALI
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
-https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/manifest.mpd?vcfilter=00aac4c5-0ce3-439e-b016-d70534c6a368
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", WILLOW - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a4e6e4f1fa05c3505222318046fece41:9556eede42d05895273948b1641dc7a5
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fkkosmjpyr/out/v1/ffebe77e82eb4fc8b829f61ca80e1704/cenc.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", ICC TV - HINDI
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
-https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=da73c9d4-de4b-42cb-97f9-70f49964ba78
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", ICC TV - ENG
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
-https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=35cfa6d4-86fc-4603-aaf9-d2b2a4fd0f0b
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", WILLOW - HD
-https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", WILLOW - LOW
-https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", STAR ENG - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", STAR HIN - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", STAR TAMIL - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", STAR TELEGU - IND
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", STAR KANNADA - IND
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?
