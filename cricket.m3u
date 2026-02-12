@@ -1,6 +1,8 @@
 #EXTM3U
-#EXTINF:-1 group-title="UPCOMING | SL vs OMA [12 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", Link 1
-https://no.link
+#EXTINF:-1 group-title="UPCOMING | SL vs OMA [12 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187756/image", WILLOW - FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=60c0741d258fbfd78aa1d41704fcd209:75f8540c88e3380f7b19d715310f6b76
+https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/ke6xhwh4p1/out/v1/a2dfe0fa8568446fa5766eefb3407ef5/cenc.mpd
 
 #EXTINF:-1 group-title="UPCOMING | NEP vs ITA [12 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187772/image", Link 1
 https://no.link
