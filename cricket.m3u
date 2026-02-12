@@ -9,6 +9,11 @@ https://a20aivottepl-a.akamaihd.net/syd-nitro/clients/dash/enc/wv2ipszuik/out/v1
 #KODIPROP:inputstream.adaptive.license_key=b07e9785466b831915621dc51ed50d3c:af30a9d18114259f21a3cc9e34ff649d
 https://a166aivottlinear-a.akamaihd.net/OTTB/bom-nitro/live/dash/enc/igjuwt107o/out/v1/489e489428ce4992b9bd784d6b948ab3/cenc.mpd
 
+#EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", HUB SPORTS 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=14d1d427e8144c7b80cd5a8a6b9aa5e3:b3992507b4df8956717e3d5d798b7ab0
+https://MH-BKS400-04.starhubgo.com:443/bpk-token/1ac@czkrzaydlfgdadvp30u2lvctbiiwkmgacz2izqaa/bpk-tv/HubSports5HD/output/manifest.mpd?bkm-query
+
 #EXTINF:-1 group-title="LIVE 🔴 | IND vs NAM [12 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", WILLOW FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9b46f722b6b64d4830629d4341b837a2:c6c925d12a2f5e982ed83e508407b25c
