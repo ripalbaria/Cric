@@ -58,6 +58,6 @@ https://no.link
 
 #EXTINF:-1 group-title="LIVE 🔴 | IND-W vs UAE-W [13 Feb 12:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", Link 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3acb1456a4f685f8dc9c78312bf7077d:961e6b1126d7b85117b6621bc685d3ce
-https://a17aivottepl-a.akamaihd.net/iad-nitro/clients/dash/enc/megb6itgnv/out/v1/cddd60858d2147b08d0839d7b6bad173/cenc.mpd 
+#KODIPROP:inputstream.adaptive.license_key=61f85d0cebd3dc9a8c70b11775b7e765:cbc2f8642590239446fd713789eee733
+https://a17aivottepl-a.akamaihd.net/iad-nitro/clients/dash/enc/afvy0qp0hz/out/v1/46c2516770a549f8a7071c6d314241e0/cenc.mpd 
 
