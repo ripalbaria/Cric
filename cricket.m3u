@@ -1,33 +1,49 @@
 #EXTM3U
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", PRIME - FHD
+#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", PRIME - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=da661ad935054591590c7487368b26f3:10229bfa52d2e601b3e88b7951dc0bae
-https://otte.live.cf.ww.aiv-cdn.net/sin-nitro/live/dash/enc/gmgcjjmmtb/out/v1/b02b49b7e4244b4ebaf4f2d576a97228/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=ed76c18710d621a87c89dedc7c13019f:7241c82fe48525a9dc6be6d7bb86611f
+https://a20aivottepl-a.akamaihd.net/syd-nitro/clients/dash/enc/wv2ipszuik/out/v1/51e65f7749fe4cc78f6c108fa09ff29c/cenc.mpd 
 
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - FHD
+#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", WILLOW - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b173976ad635dc5c62d697a427e9c178:2802e24c261e989d73bd784658930a03
-https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/voix9ubhqo/out/v1/9b382021098e45fa8d74f95be19b60fa/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=9d6749a345129547c1992d538f965f29:1e4800831a59a6ef6c1f0a641c89a498
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cjjxjjcb4c/out/v1/355898f6719a47ec8cd378316eac9f1c/cenc.mpd
 
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", ICC TV - HINDI
+#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", ICC - HINDI
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e85411a37b603294ad2f9cd79b3eb559:a1ba6a2e83e553191e0bedaec5c83773
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=aae203c8-4ec8-42c8-b9d5-275167c843ee|user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1771015749~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=855deb5e-1e53-4f5e-bbb6-9f2979aa3ae8~data=hdntl~hmac=345b341cf16f188186f3affcb9ff49b5f8729d75a74fd13bd87c0814291a66e2/manifest.mpd|user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - HD
+#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", ICC - ENG
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e85411a37b603294ad2f9cd79b3eb559:a1ba6a2e83e553191e0bedaec5c83773
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1771015418~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=a704e901-ee0e-495b-ae95-0c1abc6fe2a7~data=hdntl~hmac=41736b14879289c15d48ccab189daa0fa897dcb9e5430722d2eed7930949ba0d/manifest.mpd?vcfilter=bb58f077-5e32-46ef-b01f-625fa555e3eb&|User-Agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A528B Build/f85574e.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+
+#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", WILLOW - HD
 https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
-#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - LQ
+#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", WILLOW - LQ
 https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
-#EXTINF:-1 group-title="UPCOMING | CAN vs UAE [13 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/189195/image", Link 1
-https://no.link
+#EXTINF:-1 group-title="UPCOMING | BAN A-W vs SL A-W [14 Feb 12:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187809/image", WILLOW
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=61f85d0cebd3dc9a8c70b11775b7e765:cbc2f8642590239446fd713789eee733
+https://a17aivottepl-a.akamaihd.net/iad-nitro/clients/dash/enc/afvy0qp0hz/out/v1/46c2516770a549f8a7071c6d314241e0/cenc.mpd 
 
-#EXTINF:-1 group-title="FINISHED | SA-W vs PAK-W [10 Feb 09:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/213118/image", SD
+#EXTINF:-1 group-title="UPCOMING | BAN A-W vs SL A-W [14 Feb 12:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187809/image", SONY LIV (ENG)
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771015165~acl=/*~id=34971241273032468920433686594466~hmac=362a13e5c1875fe49e20a0e28f56ee6bacabfb0dbdd78c8eb4b6466260034758
+
+#EXTINF:-1 group-title="UPCOMING | BAN A-W vs SL A-W [14 Feb 12:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187809/image", SONY LIV (HINDI)
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771015165~acl=/*~id=34971241273032468920433686594466~hmac=362a13e5c1875fe49e20a0e28f56ee6bacabfb0dbdd78c8eb4b6466260034758
+
+#EXTINF:-1 group-title="UPCOMING | BAN A-W vs SL A-W [14 Feb 12:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187809/image", SONY LIV (TAMIL)
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771015165~acl=/*~id=34971241273032468920433686594466~hmac=362a13e5c1875fe49e20a0e28f56ee6bacabfb0dbdd78c8eb4b6466260034758
+
+#EXTINF:-1 group-title="UPCOMING | BAN A-W vs SL A-W [14 Feb 12:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187809/image", SONY LIV (TELEGU)
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771015165~acl=/*~id=34971241273032468920433686594466~hmac=362a13e5c1875fe49e20a0e28f56ee6bacabfb0dbdd78c8eb4b6466260034758
+
+#EXTINF:-1 group-title="UPCOMING | MAS-W vs THA-W [14 Feb 08:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/6912/image", SD
 https://sportssurge.stream/get.php?link=aHR0cDovLzM4LjE5MC4xNzguNTQ6ODA4OS9jcmM4L2luZGV4Lm0zdTg=
-
-#EXTINF:-1 group-title="UPCOMING | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", Link 1
-https://no.link
 
 #EXTINF:-1 group-title="UPCOMING | IRE vs OMA [14 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187766/image", Link 1
 https://no.link
@@ -55,9 +71,4 @@ https://no.link
 
 #EXTINF:-1 group-title="UPCOMING | USA vs NAM [15 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", Link 1
 https://no.link
-
-#EXTINF:-1 group-title="LIVE 🔴 | IND-W vs UAE-W [13 Feb 12:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187765/image", Link 1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=61f85d0cebd3dc9a8c70b11775b7e765:cbc2f8642590239446fd713789eee733
-https://a17aivottepl-a.akamaihd.net/iad-nitro/clients/dash/enc/afvy0qp0hz/out/v1/46c2516770a549f8a7071c6d314241e0/cenc.mpd 
 
