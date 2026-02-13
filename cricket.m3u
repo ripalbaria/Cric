@@ -1,30 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", PRIME - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ed76c18710d621a87c89dedc7c13019f:7241c82fe48525a9dc6be6d7bb86611f
-https://a20aivottepl-a.akamaihd.net/syd-nitro/clients/dash/enc/wv2ipszuik/out/v1/51e65f7749fe4cc78f6c108fa09ff29c/cenc.mpd 
-
-#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", WILLOW - FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9d6749a345129547c1992d538f965f29:1e4800831a59a6ef6c1f0a641c89a498
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cjjxjjcb4c/out/v1/355898f6719a47ec8cd378316eac9f1c/cenc.mpd
-
-#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", ICC - HINDI
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e85411a37b603294ad2f9cd79b3eb559:a1ba6a2e83e553191e0bedaec5c83773
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1771015749~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=855deb5e-1e53-4f5e-bbb6-9f2979aa3ae8~data=hdntl~hmac=345b341cf16f188186f3affcb9ff49b5f8729d75a74fd13bd87c0814291a66e2/manifest.mpd|user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-
-#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", ICC - ENG
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e85411a37b603294ad2f9cd79b3eb559:a1ba6a2e83e553191e0bedaec5c83773
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1771015418~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=a704e901-ee0e-495b-ae95-0c1abc6fe2a7~data=hdntl~hmac=41736b14879289c15d48ccab189daa0fa897dcb9e5430722d2eed7930949ba0d/manifest.mpd?vcfilter=bb58f077-5e32-46ef-b01f-625fa555e3eb&|User-Agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A528B Build/f85574e.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
-
-#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", WILLOW - HD
-https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
-
-#EXTINF:-1 group-title="LIVE 🔴 | USA vs NED [13 Feb 07:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", WILLOW - LQ
-https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
-
 #EXTINF:-1 group-title="UPCOMING | BAN A-W vs SL A-W [14 Feb 12:30 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/187809/image", WILLOW
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=61f85d0cebd3dc9a8c70b11775b7e765:cbc2f8642590239446fd713789eee733
