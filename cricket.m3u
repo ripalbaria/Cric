@@ -38,3 +38,8 @@ https://no.link
 #EXTINF:-1 group-title="UPCOMING | USA vs NAM [15 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/199276/image", Link 1
 https://no.link
 
+#EXTINF:-1 group-title="LIVE 🔴 | PAK-W vs NEP-W [13 Feb 08:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187808/image", Link 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3acb1456a4f685f8dc9c78312bf7077d:961e6b1126d7b85117b6621bc685d3ce
+https://a17aivottepl-a.akamaihd.net/iad-nitro/clients/dash/enc/megb6itgnv/out/v1/cddd60858d2147b08d0839d7b6bad173/cenc.mpd 
+
