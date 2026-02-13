@@ -1,13 +1,23 @@
 #EXTM3U
-#EXTINF:-1 group-title="UPCOMING | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - FHD
+#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", PRIME - FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=da661ad935054591590c7487368b26f3:10229bfa52d2e601b3e88b7951dc0bae
+https://otte.live.cf.ww.aiv-cdn.net/sin-nitro/live/dash/enc/gmgcjjmmtb/out/v1/b02b49b7e4244b4ebaf4f2d576a97228/cenc.mpd
+
+#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b173976ad635dc5c62d697a427e9c178:2802e24c261e989d73bd784658930a03
 https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/voix9ubhqo/out/v1/9b382021098e45fa8d74f95be19b60fa/cenc.mpd
 
-#EXTINF:-1 group-title="UPCOMING | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - HD
+#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", ICC TV - HINDI
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
+https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=aae203c8-4ec8-42c8-b9d5-275167c843ee
+
+#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - HD
 https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
-#EXTINF:-1 group-title="UPCOMING | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - LQ
+#EXTINF:-1 group-title="LIVE 🔴 | AUS vs ZIM [13 Feb 11:00 AM]" tvg-logo="https://img.sofascore.com/api/v1/team/187746/image", WILLOW - LQ
 https://cdn16348712.blazingcdn.net/dx14sd/index.m3u8|Referer=https://google.com/&Origin=https://google.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
 #EXTINF:-1 group-title="UPCOMING | CAN vs UAE [13 Feb 03:00 PM]" tvg-logo="https://img.sofascore.com/api/v1/team/189195/image", Link 1
