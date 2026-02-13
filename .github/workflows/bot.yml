@@ -27,6 +27,11 @@ jobs:
         run: pip install curl-cffi pytz
 
       - name: Run Generator Script
+        # 👇 Sirf ye 'env' block add kiya hai taaki secrets script tak pahunch sakein
+        env:
+          ONED_BASE_URL: ${{ secrets.ONED_BASE_URL }}
+          ONED_SRC: ${{ secrets.ONED_SRC }}
+          ONED_TARGET: ${{ secrets.ONED_TARGET }}
         run: python cric_gen.py
 
       - name: Commit and Push
