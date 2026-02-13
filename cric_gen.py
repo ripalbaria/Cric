@@ -3,17 +3,23 @@ import json
 import base64
 import re
 import pytz
+import os
 from datetime import datetime, timedelta
 
-# --- CONFIGURATION ---
-BASE_URL = "https://onedtcwc.space/"
-MAIN_URL = "https://onedtcwc.space/app.json"
+# --- CONFIGURATION (LOADED FROM SECRETS) ---
+# Ye values ab GitHub Secrets se aayengi
+BASE_URL = os.getenv("ONED_BASE_URL")
+MAIN_URL = f"{BASE_URL}app.json"
+# Decryption Keys (Jo pehle hardcoded strings thi)
+SECRET_SRC = os.getenv("ONED_SRC")
+SECRET_TARGET = os.getenv("ONED_TARGET")
 
 # --- DECRYPTION ENGINE ---
 def decrypt_cricz(encrypted_text):
     if not encrypted_text: return None
-    src = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
-    target = "fFgGjJkKaApPbBmMoOzZeEnNcCdDrRqQtTvVuUxXhHiIwWyYlLsS"
+    # Use variables from Secrets
+    src = SECRET_SRC
+    target = SECRET_TARGET
     try:
         decode_map = str.maketrans(target, src)
         substituted_str = encrypted_text.translate(decode_map)
@@ -98,6 +104,11 @@ def generate_m3u():
     playlist_entries = []
     
     try:
+        # Check secrets
+        if not BASE_URL or not SECRET_SRC or not SECRET_TARGET:
+            print("❌ Error: ONED Secrets missing!")
+            return
+
         res = session.get(MAIN_URL, impersonate="chrome110", timeout=20)
         if res.status_code != 200: return
 
